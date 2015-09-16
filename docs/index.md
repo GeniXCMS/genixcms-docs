@@ -1,4 +1,4 @@
-![Logo GeniXCMS](img/genixcms-logo-blue.png)
+![Logo GeniXCMS](img/genixcms-logo-sign-small.png)
 
 # GeniXCMS
 
