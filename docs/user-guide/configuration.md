@@ -6,7 +6,7 @@ A new page will shows up .
 
 ## General Settings
 
-![General Settings](img/general-settings.png)
+![General Settings](../img/general-settings.png)
 
 There are some input fields appear. Fill in the necessary field. Especially :
 
@@ -20,7 +20,7 @@ After those are filled up, go to the next tab.
 
 ## E-Mail
 
-![EMail Settings](img/email-settings.png)
+![EMail Settings](../img/email-settings.png)
 
 This page is for email sending features. There are some options to be picked. 
 
@@ -41,7 +41,7 @@ This is Optional. Depends on the Themes you are using. If no options of using th
 
 ## Logo
 
-![Logo Settings](img/logo-settings.png)
+![Logo Settings](../img/logo-settings.png)
 
 ### Logo
 Now it's time to personalize your site. Upload Your own Logo. **Choose a small images** please, so it won't make your site bloating. You can choose wheter Upload it by your self or just use already online Logo. 
@@ -54,7 +54,7 @@ It automatically will use the image url rather than the Uploaded Logo.
 Insert your favicon url. Full url if i may say. Since it won't trouble when the **SMART_URL** is activated. 
 
 ## Library
-![Library Settings](img/library-settings.png)
+![Library Settings](../img/library-settings.png)
 
 These are the dependencies we had to load for website to work well. We need :
 
@@ -70,7 +70,7 @@ For jQuery, You can input which version you wanto to use. Just fill in the versi
 
 ## Posts
 
-![Posts Settings](img/posts-settings.png)
+![Posts Settings](../img/posts-settings.png)
 
 **Post Per Page** is the Options how many posts are appear at the front page. 
 
@@ -80,7 +80,7 @@ For jQuery, You can input which version you wanto to use. Just fill in the versi
 
 ## Payment
 
-![Payment Settings](img/payment-settings.png)
+![Payment Settings](../img/payment-settings.png)
 
 Currently We are still in developing the Payment Class. Especially the **PayPal Class**. 
 

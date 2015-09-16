@@ -2,7 +2,7 @@
 
 Open the Menu manager at the left. Click the Menus link. 
 
-![Menus Manager](img/menus-manager.png)
+![Menus Manager](../img/menus-manager.png)
 
 There are two menus already provided. So, You don't need to create a new one. 
 
@@ -10,13 +10,13 @@ There are two menus already provided. So, You don't need to create a new one.
 
 Click one of the menu. It will shows list of menu items like this 
 
-![Menus Item](img/menus-items.png)
+![Menus Item](../img/menus-items.png)
 
 
 ## Add Item
 To add a Menu item just click the Add Item tab, a new tab will appear. 
 
-![](img/menus-additem.png)
+![](../img/menus-additem.png)
 
 To create a main menu, Left the Parent Menu blank. But if it's a submenu, choose the parent menu. 
 

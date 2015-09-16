@@ -7,4 +7,4 @@ Will be added more statistics on the next update.
 
 Dashboard will Show at the first time when you logged in to administrator area.
 
-![Dashboard](img/dashboard.png)
+![Dashboard](../img/dashboard.png)
