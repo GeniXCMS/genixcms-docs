@@ -18,6 +18,7 @@ This is the hierarchy of MVC, as GeniXCMS is using MVC structure.
 
 The controller are divided into some parts.
 
+- Ajax
 - Frontend
 - Backend
 - Error
@@ -122,7 +123,7 @@ Anothere error pages are :
 
 Using error handle is simple. Below are some examples how to use it.
 
-#### File Inclusion
+#### 404 Not Found Page
 ```
 $file = "/path/to/file.php";
 if ( file_exists($file) ) {

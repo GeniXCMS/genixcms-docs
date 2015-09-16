@@ -14,15 +14,16 @@
 
 This class is to manage the Categories. This category structure is a very simple. 
 
-An improvement probably added in the future. Below are the explanation each function at the Categories Class.
+An improvement probably added in the future. Below are the explanation each method at the Categories Class.
 
-## Dropdown Function
 
-Usage : `echo Categories::dropdown(array '$vars');`
+## Dropdown Method
+
+Usage : `echo Categories::dropdown(array $vars);`
 
 Return: `string`
 
-This function was intended to create an automatic dropdown options from available categories at the database. This means that the developer can create dropdown easily just fill in the parameters and a **select input** created automatically.
+This method was intended to create an automatic dropdown options from available categories at the database. This means that the developer can create dropdown easily just fill in the parameters and a **select input** created automatically.
 
 Example:
 
@@ -36,7 +37,7 @@ $vars = array(
 echo Categories::dropdown($vars);
 ```
 
-That functions calls will create output like this.
+That methods calls will create output like this.
 
 ```
 <select name="catname" class="form-control">
@@ -60,13 +61,43 @@ See also:
 - [Db::result()](db.class.md)
 
   
-## Name Function
+
+## Lists Method
+Usage : `echo Categories::lists(array $vars)`
+
+This method will show the list of the Categories with the unordered list markup. 
+
+example: 
+
+```
+$vars = array(
+             'name'      =>  'catname',
+             'parent'    =>  'parent',
+             'order_by'  =>  '',
+             'sort'      =>  'ASC',
+           )
+echo Categories::lists($vars);
+```
+
+Explanation:
+
+- **name**, this is the name  of the select input.
+- **parent**, this is the parent of the category you want to show. No parent or *empty* means all categories will shows up. 
+- **order_by**, this is how you want the category ordered by. Available columns are : `id`, `name`, `slug`, `parent`, `desc` default is `id`
+- **sort**, this is the options how your categories sorted, Ascending `ASC`, or Descending `DESC`. Default is `ASC`
+
+See also:
+
+- [Db::result()](db.class.md)
+
+
+## Name Method
 
 Usage: `echo Categories::name(int '$id');`
 
 Return: `string`
 
-This function will get the name of Category for the specific ID.
+This method will get the name of Category for the specific ID.
 
 example:
 
@@ -74,10 +105,10 @@ we have a list of categories with sample below :
 
 
 
-| ID | Name  |
-|----|-------|
-| 1 | News  |
-| 2 | Article  |
+| ID  | Name     |
+|-----|----------|
+| 1   | News     |
+| 2   | Article  |
 
 
 ```
@@ -94,7 +125,7 @@ See also:
 - [Db::result()](db.class.md)
   
 
-## getParent Function
+## getParent Method
 
 Usage: `echo Categories::getParent(int '$id');`
 
@@ -126,17 +157,30 @@ See also:
 
 - [Db::result()](db.class.md)
 
-  
 
-## Delete Function
+
+## Delete Method
 
 Usage: `Categories::delete(int '$id');`
 
 Return: `bool`
 
-This function will delete Category with a specific ID.
+This method will delete Category with a specific ID.
 
 See also:
 
 - [Db::result()](db.class.md)
-.
+
+
+## Type Method 
+
+Usage: `Categories::type(int '$id');`
+
+Return: `string`
+
+This method will query the categories table and find the specific `id` and output the type of the category.
+
+
+See also:
+
+- [Db::result()](db.class.md)
