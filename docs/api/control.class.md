@@ -26,13 +26,13 @@ The controller are divided into some parts.
 
 This controller is flexible. You can create and add it at the **Control Class** to load it. 
 
-## Handler Function
+## Handler Method
 
-> This function is deprecated and will be removed on future updates
+> This method is deprecated and will be removed on future updates
 
 Usage: `Control::handler((string) $vars)`
 
-This function is to load the controller types.
+This method is to load the controller types.
 
 Example: 
 
@@ -42,32 +42,44 @@ We want to call the **Frontend Controller**, so use this to load it.
 
 This will load the Frontend Controller.
 
-## Frontend File Inclusion Function
+## Frontend File Inclusion Method
 
 Usage: `Control::incFront((string) $vars);`
 
-This function will load the file at the Frontend directory if the file is exist. If not it will load the 404 not found page. 
+This method will load the file at the Frontend directory if the file is exist. If not it will load the 404 not found page. 
 
-This function is needed by `Control::frontend()` function. 
+This method is needed by `Control::frontend()` method. 
 
 
 
-## Backend File Inclusion Function
+## Backend File Inclusion Method
 
 Usage: `Control::incBack((string) $vars);`
 
-This function will load the file at the FBackend directory if the file is exist. If not it will load the 404 not found page. 
+This method will load the file at the FBackend directory if the file is exist. If not it will load the 404 not found page. 
 
-This function is needed by `Control::backend()` function. 
+This method is needed by `Control::backend()` method. 
+
+## Get Method 
+
+Usage: `Control::get(array $arr);`
+
+This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method only run when the `SMART_URL` was set as `false`.
+
+## Route Method
+
+Usage: `Control::route(array $arr);`
+
+This method used when the `SMART_URL` was set as `true` and it will read the request uri at the url. On every value is match at the `$arr` the file will be included.
 
 
-## Frontend Function
+## Frontend Method
 
 Usage: `Control::frontend();`
 
 This will handle the controller which file will be included at the Frontend controller.
 
-This function will call the file using `self::incFront((string) $vars)`
+This method will call the file using `self::incFront((string) $vars)`
 
 If the controller is not found, the 404 error will loaded.
 
@@ -76,9 +88,9 @@ And Default controller is `default.control.php`
 
 ### How to load your own controller
 
-This is simple. If you want to create your own controller and want to load it at the frontpage. Just create your controller at the Frontend directory. 
+This is simple. If you want to create your own controller and want to load it at the frontpage. Just create your controller at the **Frontend Controller** `inc/lib/Control/Frontend` directory. 
 
-After the file is ready, open the `Control.class.php` file, and go to the `public static function frontend()` function. 
+After the file is ready, open the `Control.class.php` file, and go to the `public static method frontend()` method. 
 
 There is a variable with arrays as the value; 
 `$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss');`
@@ -88,13 +100,13 @@ Just add your controller name on it. If your file name is `store.control.php`. S
 `$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss', 'store');`
 
 
-## Backend Function
+## Backend Method
 
 Usage: `Control::backend();`
 
 This will handle the controller which file will be included at the Backend controller.
 
-This function will call the file using `self::incBack((string) $vars)`
+This method will call the file using `self::incBack((string) $vars)`
 
 If the controller is not found, the 404 error will loaded.
 
@@ -102,12 +114,12 @@ And Default controller is `default.control.php`
 
 
 
-## ERROR Function
+## ERROR Method
 
 Usage: `Control::error((string) $vars='',(string) $val'');`
 
 
-This function is to load the Error handler. The default is 404 not found. 
+This method is to load the Error handler. The default is 404 not found. 
 
 There are some error page already built. Especially for the system error, eg: `404`, `400`, `403`, `500`
 
@@ -157,9 +169,15 @@ if(!$db){
 ```
 
 
+
 ### Creating Your own Error Page
 
 If yo want to use your error handler, just create a file at Error directory inside the Control directory.
 
 And load it when there is an error with your desired error pages.
+
+
+## Ajax Method
+
+This method used when we call the ajax request. All ajax file located at `inc/lib/Control/Ajax`. 
 
