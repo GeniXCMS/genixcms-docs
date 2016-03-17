@@ -1,8 +1,8 @@
 # Categories
 
-Posts need Category. Before creating a new post, it's better if we add new Category first. At least One Category. 
+Posts need **Category**. Before creating a new post, it's better if we add new Category first. At least One Category. 
 
-Click the Category Manager at the left. 
+Click the Category Manager at the left menu. 
 
 ![Category Manager](../img/categories-manager.png)
 
