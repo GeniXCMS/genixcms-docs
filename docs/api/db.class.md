@@ -18,7 +18,7 @@ This class is for managing and for processing the database. We are using MySQL d
 
 ## Constructor
 
-Database connection is executed on the constructor. All database settings are defined at the config.php file located at `inc/config/`. 
+Database connection is executed on the constructor. All database settings are defined at the **config.php** file located at `inc/config/`. 
 
 
 ## Connect Method
