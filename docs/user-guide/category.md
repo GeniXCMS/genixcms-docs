@@ -18,6 +18,6 @@ After category was added, will appear a box with category name.
 
 ![Category List](../img/categories-list.png)
 
-At the images, it shows two name. The top is Main Category, and THe second is Sub Category. 
+At the images, it shows two name. The top is **Main Category**, and The second is **Sub Category**. 
 
 Appparently, the main category cannot be editted yet. 
