@@ -14,7 +14,7 @@ Choose the parent category if any. If no category exist just left it blank.
 
 Fill in the name of the category, after all is set, click **Save Changes** button.
 
-After category is added, will appear a box with category name. 
+After category was added, will appear a box with category name. 
 
 ![Category List](../img/categories-list.png)
 
