@@ -8,7 +8,7 @@ Before starting installation, please make sure your webserver is meet this requi
 * Using PHP >= **5.5.9**
 * Using MySQL Server at least version 4
 
-That's the minimal requirements we need. But don't forget to install the **webserver** already. Since this application will run on the webserver. You can use many kinds webserver as you want. 
+That's the minimal requirements we need. But don't forget to install the **webserver** already. Since this application will run on the webserver. You can use any kinds webserver as you want. 
 
 ### Recommendation
 
