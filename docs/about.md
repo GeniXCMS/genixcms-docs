@@ -21,7 +21,7 @@ This CMSF is a starter point to build your own online applications. With already
 
 ###Requirements###
 
-* PHP >=**5.4**
+* PHP >=**5.5.9**
 * MySQL >=**4**
 
 
