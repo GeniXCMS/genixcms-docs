@@ -18,7 +18,7 @@ That's the minimal requirements we need. But don't forget to install the **webse
 
 ## Uploading Files
 
-Before we install the CMS, we had to put the files into the webserver. Depends on the hosting you are using, this is basically the same proccess to all hosting provider.
+Before we install the **CMS**, we had to put the files into the webserver. Depends on the hosting you are using, this is basically the same proccess to all hosting provider.
 
 You can upload it via FTP, or File Managers on the Control Panel. Please Ask your hosting provider about how to do this. 
 
