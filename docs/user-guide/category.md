@@ -20,4 +20,4 @@ After category was added, will appear a box with category name.
 
 At the images, it shows two name. The top is **Main Category**, and The second is **Sub Category**. 
 
-Appparently, the main category cannot be editted yet. 
+Apparently, the main category cannot edited yet. 
