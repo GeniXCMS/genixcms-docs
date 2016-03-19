@@ -1,6 +1,6 @@
 # Install Class
 
-```
+```php
 @filename: Install.class.php
 @location: inc/lib/
 @package: GeniXCMS
