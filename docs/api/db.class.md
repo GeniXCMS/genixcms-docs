@@ -1,6 +1,6 @@
 # DB Class
 
-```
+```php
 @filename: Db.class.php
 @location: inc/lib/
 @package: GeniXCMS
