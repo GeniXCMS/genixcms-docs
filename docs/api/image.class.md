@@ -20,3 +20,12 @@ Usage: `Image::resize($src, $dst, $width, $height, $crop=0);`
 
 Return: `boolean`
 
+This method will resize image file and crop it in desired dimension. 
+
+```php
+$src = Source of the image
+$dst = Destination of the resized image
+$width = Desired width dimension
+$height = Desired height dimension
+$crop = Options to crop the image.
+```
