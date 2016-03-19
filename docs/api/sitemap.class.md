@@ -1,6 +1,6 @@
 # Sitemap Class
 
-```
+```php
 @filename: Sitemap.class.php
 @location: inc/lib/
 @package: GeniXCMS
