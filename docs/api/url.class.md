@@ -1,6 +1,6 @@
 # Url Class
 
-```
+```php
 @filename: Url.class.php
 @location: inc/lib/
 @package: GeniXCMS
