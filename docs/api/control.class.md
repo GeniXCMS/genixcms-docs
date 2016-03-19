@@ -121,7 +121,7 @@ Usage: `Control::error((string) $vars='',(string) $val'');`
 
 This method is to load the Error handler. The default is 404 not found. 
 
-There are some error page already built. Especially for the system error, eg: `404`, `400`, `403`, `500`
+There are some error page already built. Specially for the system error, eg: `404`, `400`, `403`, `500`
 
 Those error page had specific header so when it loaded it will read by the system as it.
 
