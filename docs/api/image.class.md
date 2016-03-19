@@ -42,4 +42,5 @@ Usage: `Image::compress_png($path, $max_quality);`
 
 Return: `''`
 
-This method will compress selected `png` type image. This method need image processor called **pngquant** it's free and opensource image processor. 
+This method will compress selected `png` type image. This method need image processor called **pngquant** it's free and opensource image processor. You can download and install it manually. Download it from [https://pngquant.org](https://pngquant.org)
+
