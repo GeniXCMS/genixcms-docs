@@ -1,6 +1,6 @@
 # Pinger Class
 
-```
+```php
 @filename: Pinger.class.php
 @location: inc/lib/
 @package: GeniXCMS
