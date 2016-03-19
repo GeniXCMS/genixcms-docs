@@ -12,11 +12,11 @@
 
 > This Documentation is still need improvement.
 
-This class is to load the controller at `inc/lib/Control` directories. Controllers are needed to proccess the procedure and view the result at themes. 
+This class is to load the controller at `inc/lib/Control` directories. Controllers needed to proccess the procedure and view the result at themes. 
 
 This is the hierarchy of MVC, as GeniXCMS is using MVC structure. 
 
-The controller are divided into some parts.
+The controller divided into some parts.
 
 - Ajax
 - Frontend
