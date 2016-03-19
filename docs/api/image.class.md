@@ -41,3 +41,5 @@ That will resize image `/path/to/image.jpg` into `/path/to/resized.jpg` with wid
 Usage: `Image::compress_png($path, $max_quality);`
 
 Return: `''`
+
+This method will compress selected png type image. This method need image processor called **pngquant** 
