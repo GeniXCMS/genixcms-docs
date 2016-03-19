@@ -1,6 +1,6 @@
 # Theme Class
 
-```
+```php
 @filename: Theme.class.php
 @location: inc/lib/
 @package: GeniXCMS
