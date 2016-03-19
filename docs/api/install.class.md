@@ -27,6 +27,6 @@ This method will create a config file inside `inc/config/` during the installati
 
 Usage: `Install::createTable();`
 
-Return: ``
+Return: `boolean`
 
 This will create the database table during the installation. 
