@@ -1,6 +1,6 @@
 # System Class
 
-```
+```php
 @filename: System.class.php
 @location: inc/lib/
 @package: GeniXCMS
