@@ -1,6 +1,6 @@
 # Stats Class
 
-```
+```php
 @filename: Stats.class.php
 @location: inc/lib/
 @package: GeniXCMS
