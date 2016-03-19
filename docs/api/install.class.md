@@ -12,4 +12,8 @@
 
 > This Documentation is still need improvement.
 
-The Install Class used when we do install the script. 
+The Install Class used to install the script. It contains some method. 
+
+## Make Config Method
+
+This method will create a config file inside `inc/config/` during the installation proccess. Data was taken from session. 
