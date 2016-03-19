@@ -30,5 +30,7 @@ $width = "470px"; // Desired width dimension
 $height = "290px"; // Desired height dimension
 $crop = "1"; // Options to crop the image
 
-Image::resize($src, $dst, $width, $height, 1);
+Image::resize($src, $dst, $width, $height, $crop);
 ```
+
+That will resize image `/path/to/image.jpg` into `/path/to/resized.jpg` with width of **470px** and height **290px** and cropped.
