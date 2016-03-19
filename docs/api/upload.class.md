@@ -1,6 +1,6 @@
 # Upload Class
 
-```
+```php
 @filename: Upload.class.php
 @location: inc/lib/
 @package: GeniXCMS
