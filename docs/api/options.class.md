@@ -1,6 +1,6 @@
 # Options Class
 
-```
+```php
 @filename: Options.class.php
 @location: inc/lib/
 @package: GeniXCMS
