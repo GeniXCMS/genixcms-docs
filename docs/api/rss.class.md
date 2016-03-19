@@ -1,6 +1,6 @@
 # Rss Class
 
-```
+```php
 @filename: Rss.class.php
 @location: inc/lib/
 @package: GeniXCMS
