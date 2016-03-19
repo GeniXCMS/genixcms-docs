@@ -134,7 +134,7 @@ $del = Db::update($var);
 This code used to insert data into database in plain format.
 
 ```php
-$del = Db::update("UPDATE `table_name` SET `name`='{$_POST['name]}' WHERE `id` = '".$_POST['id']."')");
+$update = Db::update("UPDATE `table_name` SET `name`='{$_POST['name]}' WHERE `id` = '".$_POST['id']."')");
 ```
 
 ## Insert Method
