@@ -160,7 +160,7 @@ $del = Db::insert($var);
 
 This code used to insert data into database in plain format.
 
-```
+```php
 $del = Db::insert("INSERT INTO `table_name` VALUES (null, '{$_POST['name]}')");
 ```
 
