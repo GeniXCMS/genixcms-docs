@@ -17,7 +17,7 @@ This CMSF is a starter point to build your own online applications. With already
 - [**MySQL**](http://mysql.com), 
 - **SB-Admin 2**,
 - **Bootstrap Validator**,
-- etc. 
+- etc.
 
 ###Requirements###
 
