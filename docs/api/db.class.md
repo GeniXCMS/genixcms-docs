@@ -18,7 +18,7 @@ This class is for managing and for processing the database. We are using MySQL d
 
 ## Constructor
 
-Database connection is executed on the constructor. All database settings are defined at the **config.php** file located at `inc/config/`. 
+Database connection executed on the constructor. All database settings are defined at the **config.php** file located at `inc/config/`. 
 
 
 ## Connect Method
@@ -88,10 +88,10 @@ Usage: `Db::delete(int $id);`
 
 Result: `string`
 
-This method is used to delete a row of data at the table by specified where clause. See sample below :
+This method used to delete a row of data at the table by specified where clause. See sample below :
 
 ```php
-$id = Typo::int($_GET['id]);
+$id = Typo::int($_GET['id']);
 $vars = array(
           'table' => 'table', // table name
           'where' => array(
@@ -117,7 +117,7 @@ See sample below :
 This code used to insert data into database in array format.
 
 ```php
-$id = Typo::int($_GET['id]);
+$id = Typo::int($_GET['id']);
 $vars = array(
           'table' => 'table', // table name
           'id' => $id,
@@ -126,6 +126,7 @@ $vars = array(
                      ), // where
       );
 $del = Db::delete($var);
+
 ```
 
 ### Plain Mode
