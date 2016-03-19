@@ -16,4 +16,4 @@ Image processor class. This Class used to process images.
 
 ## Resize Method
 
-Usage: `Image::resize();`
+Usage: `Image::resize($src, $dst, $width, $height, $crop=0);`
