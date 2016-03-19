@@ -24,12 +24,11 @@ This method will resize image file and crop it in desired dimension.
 
 ```php
 
-$src = Source of the image
-$dst = Destination of the resized image
-$width = Desired width dimension
-$height = Desired height dimension
-$crop = Options to crop the image
-
+$src = "/path/to/image.jpg"; // Source of the image
+$dst = "/path/to/resized.jpg"; // Destination of the resized image
+$width = "470px"; // Desired width dimension
+$height = "290px"; // Desired height dimension
+$crop = "1"; // Options to crop the image
 
 Image::resize($src, $dst, $width, $height, 1);
 ```
