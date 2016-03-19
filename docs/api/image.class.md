@@ -27,5 +27,5 @@ $src = Source of the image
 $dst = Destination of the resized image
 $width = Desired width dimension
 $height = Desired height dimension
-$crop = Options to crop the image.
+$crop = Options to crop the image
 ```
