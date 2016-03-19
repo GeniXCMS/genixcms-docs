@@ -1,6 +1,6 @@
 # Paging Class
 
-```
+```php
 @filename: Paging.class.php
 @location: inc/lib/
 @package: GeniXCMS
