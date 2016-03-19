@@ -1,6 +1,6 @@
 # Mail Class
 
-```
+```php
 @filename: Mail.class.php
 @location: inc/lib/
 @package: GeniXCMS
