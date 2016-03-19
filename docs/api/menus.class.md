@@ -1,6 +1,6 @@
 # Menus Class
 
-```
+```php
 @filename: Menus.class.php
 @location: inc/lib/
 @package: GeniXCMS
