@@ -98,7 +98,7 @@ $vars = array(
                          'id' => $id
                      ), // where
       );
-$del = Db::delete($var);
+$del = Db::delete($vars);
 ```
 
 The code above will delete data in a row which had the `$id` value.
@@ -125,7 +125,7 @@ $vars = array(
                          'sex' => $_POST['sex']
                      ), // where
       );
-$del = Db::update($var);
+$update = Db::update($var);
 
 ```
 
