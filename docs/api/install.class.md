@@ -12,4 +12,4 @@
 
 > This Documentation is still need improvement.
 
-
+The Install Class used when we do install the script. 
