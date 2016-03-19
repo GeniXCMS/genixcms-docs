@@ -42,4 +42,4 @@ Usage: `Image::compress_png($path, $max_quality);`
 
 Return: `''`
 
-This method will compress selected `png` type image. This method need image processor called **pngquant** 
+This method will compress selected `png` type image. This method need image processor called **pngquant** it's free and opensource image processor. 
