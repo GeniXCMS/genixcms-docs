@@ -1,6 +1,6 @@
 # Date Class
 
-```
+```php
 @filename: Date.class.php
 @location: inc/lib/
 @package: GeniXCMS
