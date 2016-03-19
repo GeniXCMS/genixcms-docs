@@ -23,7 +23,7 @@ Usage : `echo Categories::dropdown(array $vars);`
 
 Return: `string`
 
-This method was intended to create an automatic dropdown options from available categories at the database. This means that the developer can create dropdown easily just fill in the parameters and a **select input** created automatically.
+This method to create an automatic dropdown options from available categories at the database. It means we can create dropdown easily just fill in the parameters and a **select input** created automatically.
 
 Example:
 
