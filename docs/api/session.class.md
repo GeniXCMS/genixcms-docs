@@ -1,6 +1,6 @@
 # Session Class
 
-```
+```php
 @filename: Session.class.php
 @location: inc/lib/
 @package: GeniXCMS
