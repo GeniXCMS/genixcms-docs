@@ -34,3 +34,8 @@ Image::resize($src, $dst, $width, $height, $crop);
 ```
 
 That will resize image `/path/to/image.jpg` into `/path/to/resized.jpg` with width of **470px** and height **290px** and cropped.
+
+
+## Compress Method
+
+Usage: `Image::compress_png();`
