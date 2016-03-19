@@ -1,6 +1,6 @@
 # Categories Class
 
-```
+```php
 @filename: Categories.class.php
 @location: inc/lib/
 @package: GeniXCMS
