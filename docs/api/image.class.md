@@ -1,6 +1,6 @@
 # Image Class
 
-```
+```php
 @filename: Images.class.php
 @location: inc/lib/
 @package: GeniXCMS
