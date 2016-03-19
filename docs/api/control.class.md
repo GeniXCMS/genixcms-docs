@@ -92,7 +92,7 @@ This is simple. If you want to create your own controller and want to load it at
 
 After the file is ready, open the `Control.class.php` file, and go to the `public static method frontend()` method. 
 
-There is a variable with arrays as the value; 
+There are some variable with arrays as the value; 
 `$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss');`
 
 Just add your controller name on it. If your file name is `store.control.php`. So the arrays become like this :
