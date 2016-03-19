@@ -13,3 +13,7 @@
 > This Documentation is still need improvement.
 
 Image processor class. This Class used to process images.
+
+## Resize Method
+
+Usage: `Image::resize();`
