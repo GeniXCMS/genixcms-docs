@@ -31,13 +31,13 @@ This method was used to connect into database. Currently the connection type is 
 
 To use the method is simple. When you create an independent file and need a database connection just execute it before run the query. 
 
-```
+```php
 Db::connect();
 ```
 
 When the configurations are not set, it takes fron the config.php file. But when you want to connect into the different database, just run this.
 
-```
+```php
 Db::connect($host,$user,$pass,$dbname);
 ```
 
@@ -49,7 +49,7 @@ Result: `array`
 
 This method is used to query the database. To call e query is simple. See the sample below. 
 
-```
+```php
 Db::query("SELECT * FROM `table_name` WHERE 1 LIMIT 1");
 ```
 
@@ -63,13 +63,13 @@ Result: `object`
 
 This method used to get a list of data from table in an object structure. To use it see code below.
 
-```
+```php
 $data = Db::result("SELECT * FROM `table_name` ORDER BY `id` LIMIT 10");
 ```
 
 This query will result :
 
-```
+```php
 array(
 	[0] -> array(
 				'name' => '',
@@ -90,7 +90,7 @@ Result: `string`
 
 This method is used to delete a row of data at the table by specified where clause. See sample below :
 
-```
+```php
 $id = Typo::int($_GET['id]);
 $vars = array(
           'table' => 'table', // table name
@@ -114,9 +114,9 @@ See sample below :
 
 ### Array Mode
 
-This code is used to insert data into database in array format.
+This code used to insert data into database in array format.
 
-```
+```php
 $id = Typo::int($_GET['id]);
 $vars = array(
           'table' => 'table', // table name
@@ -132,7 +132,7 @@ $del = Db::delete($var);
 
 This code used to insert data into database in plain format.
 
-```
+```php
 $del = Db::insert("INSERT INTO `table_name` VALUES (null, '{$_POST['name]}')");
 ```
 
@@ -143,9 +143,9 @@ Usage: `Db::insert(array $var);`
 This method will insert data into the table on the database. See sample below :
 ### Array Mode
 
-This code is used to insert data into database in array format.
+This code used to insert data into database in array format.
 
-```
+```php
 $vars = array(
           'table' => 'table', // table name
           'key' => array(
