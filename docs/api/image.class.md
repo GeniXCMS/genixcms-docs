@@ -38,4 +38,6 @@ That will resize image `/path/to/image.jpg` into `/path/to/resized.jpg` with wid
 
 ## Compress Method
 
-Usage: `Image::compress_png();`
+Usage: `Image::compress_png($path, $max_quality);`
+
+Return: `''`
