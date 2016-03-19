@@ -1,6 +1,6 @@
 # GxMain Class
 
-```
+```php
 @filename: GxMain.class.php
 @location: inc/lib/
 @package: GeniXCMS
