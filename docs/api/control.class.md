@@ -56,7 +56,7 @@ This method is needed by `Control::frontend()` method.
 
 Usage: `Control::incBack((string) $vars);`
 
-This method will load the file at the Backend directory if the file is exist. If not it will load the 404 not found page. 
+This method will load the file at the Backend directory if the file is exist. If not it will load the **404** not found page. 
 
 This method is needed by `Control::backend()` method. 
 
@@ -64,7 +64,7 @@ This method is needed by `Control::backend()` method.
 
 Usage: `Control::get(array $arr);`
 
-This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method only run when the `SMART_URL` was set as `false`.
+This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method is only run when the `SMART_URL` is set as `false`.
 
 ## Route Method
 
