@@ -117,15 +117,15 @@ See sample below :
 This code used to insert data into database in array format.
 
 ```php
-$id = Typo::int($_GET['id']);
 $vars = array(
           'table' => 'table', // table name
-          'id' => $id,
+          'id' => $_POST['id'],
           'key' => array(
                          'name' => $_POST['name']
+                         'sex' => $_POST['sex']
                      ), // where
       );
-$del = Db::delete($var);
+$del = Db::insert($var);
 
 ```
 
