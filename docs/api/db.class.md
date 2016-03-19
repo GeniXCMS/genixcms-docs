@@ -121,7 +121,7 @@ $vars = array(
           'table' => 'table', // table name
           'id' => $_POST['id'],
           'key' => array(
-                         'name' => $_POST['name']
+                         'name' => $_POST['name'],
                          'sex' => $_POST['sex']
                      ), // where
       );
