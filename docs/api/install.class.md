@@ -21,3 +21,12 @@ Usage : `Install::makeConfig($file);`
 Return: `string`
 
 This method will create a config file inside `inc/config/` during the installation proccess. Data taken from session. 
+
+
+## Create Table Method
+
+Usage: `Install::createTable();`
+
+Return: ``
+
+This will create the database table during the installation. 
