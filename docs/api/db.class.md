@@ -125,7 +125,7 @@ $vars = array(
                          'sex' => $_POST['sex']
                      ), // where
       );
-$del = Db::insert($var);
+$del = Db::update($var);
 
 ```
 
