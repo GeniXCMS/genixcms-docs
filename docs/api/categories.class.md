@@ -12,7 +12,7 @@
 
 > This Documentation is still need improvement.
 
-This class is to manage the Categories. This category structure is a very simple. 
+This class is to manage the Categories. This category structure is very simple. 
 
 An improvement probably added in the future. Below are the explanation each method at the Categories Class.
 
