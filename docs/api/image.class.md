@@ -44,3 +44,4 @@ Return: `''`
 
 This method will compress selected `png` type image. This method need image processor called **pngquant** it's free and opensource image processor. You can download and install it manually. Download it from [https://pngquant.org](https://pngquant.org)
 
+Ubuntu/Debian Server : `apt-get install pngquant`
