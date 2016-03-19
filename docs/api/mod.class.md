@@ -1,6 +1,6 @@
 # Mod Class
 
-```
+```php
 @filename: Mod.class.php
 @location: inc/lib/
 @package: GeniXCMS
