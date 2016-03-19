@@ -1,6 +1,6 @@
 # Posts Class
 
-```
+```php
 @filename: Posts.class.php
 @location: inc/lib/
 @package: GeniXCMS
