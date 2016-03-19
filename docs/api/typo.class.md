@@ -1,6 +1,6 @@
 # Typo Class
 
-```
+```php
 @filename: Typo.class.php
 @location: inc/lib/
 @package: GeniXCMS
