@@ -1,6 +1,6 @@
 # Site Class
 
-```
+```php
 @filename: Site.class.php
 @location: inc/lib/
 @package: GeniXCMS
