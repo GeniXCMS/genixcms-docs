@@ -56,7 +56,7 @@ This method is needed by `Control::frontend()` method.
 
 Usage: `Control::incBack((string) $vars);`
 
-This method will load the file at the FBackend directory if the file is exist. If not it will load the 404 not found page. 
+This method will load the file at the Backend directory if the file is exist. If not it will load the 404 not found page. 
 
 This method is needed by `Control::backend()` method. 
 
