@@ -1,6 +1,6 @@
 # User Class
 
-```
+```php
 @filename: User.class.php
 @location: inc/lib/
 @package: GeniXCMS
