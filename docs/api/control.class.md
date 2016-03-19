@@ -1,6 +1,6 @@
 # Control Class
 
-```
+```php
 @filename: Control.class.php
 @location: inc/lib/
 @package: GeniXCMS
