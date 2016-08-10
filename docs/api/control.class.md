@@ -136,7 +136,7 @@ Anothere error pages are :
 Using error handle is simple. Below are some examples how to use it.
 
 #### 404 Not Found Page
-```
+```php
 $file = "/path/to/file.php";
 if ( file_exists($file) ) {
     include($file);
@@ -148,7 +148,7 @@ if ( file_exists($file) ) {
 
 #### No Access / Restricted Access
 
-```
+```php
 if(User::access(2)){
    echo "You are ready to go.";
 }else{
@@ -159,7 +159,7 @@ if(User::access(2)){
 
 #### Database Error 
 
-```
+```php
 $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 $sql = 'SELECT * FROM `table` WHERE `id` = '{$id}'';
 $db = $mysqli->query($sql);

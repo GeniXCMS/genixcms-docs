@@ -27,7 +27,7 @@ This method to create an automatic dropdown options from available categories at
 
 Example:
 
-```
+```php
 $vars = array(
              'name'      =>  'catname',
              'parent'    =>  'parent',
@@ -39,7 +39,7 @@ echo Categories::dropdown($vars);
 
 That methods calls will create output like this.
 
-```
+```html
 <select name="catname" class="form-control">
 	<option></option>
 	<option value="1">Category Name</option>
@@ -69,7 +69,7 @@ This method will show the list of the Categories with the unordered list markup.
 
 example: 
 
-```
+```php
 $vars = array(
              'name'      =>  'catname',
              'parent'    =>  'parent',
@@ -111,7 +111,7 @@ we have a list of categories with sample below :
 | 2   | Article  |
 
 
-```
+```php
 $cat = Categories::name(1);
 echo $cat;
 ```
@@ -139,14 +139,14 @@ we have a list of categories with sample below :
 
 
 
-| ID | Name  | Parent |
-|----|-------|--------|
-| 1 | News  | 0
-| 2 | Article  | 0
-| 3 | Latest  | 1
+| ID | Name    | Parent |
+|----|---------|--------|
+| 1  | News    | 0
+| 2  | Article | 0
+| 3  | Latest  | 1
 
 
-```
+```php
 $parent = Categories::getParent(3);
 echo $parent;
 ```

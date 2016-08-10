@@ -133,7 +133,7 @@ $update = Db::update($var);
 
 This code used to insert data into database in plain format.
 
-```php
+```sql
 $update = Db::update("UPDATE `table_name` SET `name`='{$_POST['name]}' WHERE `id` = '".$_POST['id']."')");
 ```
 
@@ -161,7 +161,7 @@ $del = Db::insert($var);
 
 This code used to insert data into database in plain format.
 
-```php
+```sql
 $del = Db::insert("INSERT INTO `table_name` VALUES (null, '{$_POST['name]}')");
 ```
 
