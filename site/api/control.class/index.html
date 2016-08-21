@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Control Class - GeniXCMS Docs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="R_2-nyFoAF1J3v3ErzgXs93wdo6cEw52wLX7r7CJG2I" />
+        
+        <meta name="author" content="Puguh Wijayanto">
+        <link rel="canonical" href="https://docs.genixcms.org/api/control.class/">
+        <link rel="shortcut icon" href="../../favicon.ico">
+        
+
+        <link href="../../css/bootstrap-3.0.3.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../.." style="padding: 10px 15px 0px">
+              <img src="https://dev.genixcms.org/assets/images/genixcms-logo-sign-small.png" style="height:33px; padding: 0px; margin: 0px;">
+              GeniXCMS Docs
+            </a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../about/about/">About</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../about/license/">License</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../about/credits/">Credits</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../user-guide/installation/">Installation</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/dashboard/">Dashboard</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/configuration/">Configuration</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/posts/">Posts</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/category/">Categories</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/pages/">Pages</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/users/">Users</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../user-guide/menus/">Menus</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../categories.class/">Categories Class</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Control Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../date.class/">Date Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../db.class/">Db Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../gxmain.class/">GxMain Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../image.class/">Image Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../install.class/">Install Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../mail.class/">Mail Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../menus.class/">Menus Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../mod.class/">Mod Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../options.class/">Options Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../paging.class/">Paging Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../pinger.class/">Pinger Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../posts.class/">Posts Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../rss.class/">Rss Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../session.class/">Session Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../site.class/">Site Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../sitemap.class/">Sitemap Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../stats.class/">Stats Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../system.class/">System Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../theme.class/">Theme Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../typo.class/">Typo Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../upload.class/">Upload Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../url.class/">Url Class</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../user.class/">User Class</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../privacy-policy/">Privacy Policy</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a rel="next" href="../categories.class/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../date.class/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/semplon/GeniXCMS">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#control-class">Control Class</a></li>
+        
+            <li><a href="#handler-method">Handler Method</a></li>
+        
+            <li><a href="#frontend-file-inclusion-method">Frontend File Inclusion Method</a></li>
+        
+            <li><a href="#backend-file-inclusion-method">Backend File Inclusion Method</a></li>
+        
+            <li><a href="#get-method">Get Method</a></li>
+        
+            <li><a href="#route-method">Route Method</a></li>
+        
+            <li><a href="#frontend-method">Frontend Method</a></li>
+        
+            <li><a href="#backend-method">Backend Method</a></li>
+        
+            <li><a href="#error-method">ERROR Method</a></li>
+        
+            <li><a href="#ajax-method">Ajax Method</a></li>
+        
+    
+    </ul>
+    <div style="">
+      
+      <!-- 250x250, dibuat 09/09/16 -->
+      <ins class="adsbygoogle"
+          style="display:inline-block;width:250px;height:250px"
+          data-ad-client="ca-pub-1745506967895167"
+          data-ad-slot="7529281145"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+</div></div>
+            <div class="col-md-9" role="main">
+<div class="col-md-12 clearfix">
+  <!-- Responsive -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-1745506967895167"
+      data-ad-slot="6087101219"
+      data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<div class="clearfix">
+&nbsp;
+</div>
+<h1 id="control-class">Control Class</h1>
+<pre><code class="php">@filename: Control.class.php
+@location: inc/lib/
+@package: GeniXCMS
+@since: 0.0.1
+@author: Puguh Wijayanto (www.metalgenix.com)
+@copyright: 2014-2016 Puguh Wijayanto
+@license: MIT License
+</code></pre>
+
+<blockquote>
+<p>This Documentation is still need improvement.</p>
+</blockquote>
+<p>This class is to load the controller at <code>inc/lib/Control</code> directories. Controllers needed to proccess the procedure and view the result at themes. </p>
+<p>This is the hierarchy of MVC, as GeniXCMS is using MVC structure. </p>
+<p>The controller divided into some parts.</p>
+<ul>
+<li>Ajax</li>
+<li>Frontend</li>
+<li>Backend</li>
+<li>Error</li>
+<li>Install</li>
+</ul>
+<p>This controller is flexible. You can create and add it at the <strong>Control Class</strong> to load it. </p>
+<h2 id="handler-method">Handler Method</h2>
+<blockquote>
+<p>This method is deprecated and will be removed on future updates</p>
+</blockquote>
+<p>Usage: <code>Control::handler((string) $vars)</code></p>
+<p>This method is to load the controller types.</p>
+<p>Example: </p>
+<p>We want to call the <strong>Frontend Controller</strong>, so use this to load it. </p>
+<p><code>Control::handler('frontend');</code></p>
+<p>This will load the Frontend Controller.</p>
+<h2 id="frontend-file-inclusion-method">Frontend File Inclusion Method</h2>
+<p>Usage: <code>Control::incFront((string) $vars);</code></p>
+<p>This method will load the file at the Frontend directory if the file is exist. If not it will load the 404 not found page. </p>
+<p>This method is needed by <code>Control::frontend()</code> method. </p>
+<h2 id="backend-file-inclusion-method">Backend File Inclusion Method</h2>
+<p>Usage: <code>Control::incBack((string) $vars);</code></p>
+<p>This method will load the file at the Backend directory if the file is exist. If not it will load the <strong>404</strong> not found page. </p>
+<p>This method is needed by <code>Control::backend()</code> method. </p>
+<h2 id="get-method">Get Method</h2>
+<p>Usage: <code>Control::get(array $arr);</code></p>
+<p>This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method is only run when the <code>SMART_URL</code> is set as <code>false</code>.</p>
+<h2 id="route-method">Route Method</h2>
+<p>Usage: <code>Control::route(array $arr);</code></p>
+<p>This method used when the <code>SMART_URL</code> was set as <code>true</code> and it will read the request uri at the url. On every value is match at the <code>$arr</code> the file will be included.</p>
+<h2 id="frontend-method">Frontend Method</h2>
+<p>Usage: <code>Control::frontend();</code></p>
+<p>This will handle the controller which file will be included at the Frontend controller.</p>
+<p>This method will call the file using <code>self::incFront((string) $vars)</code></p>
+<p>If the controller is not found, the 404 error will loaded.</p>
+<p>And Default controller is <code>default.control.php</code></p>
+<h3 id="how-to-load-your-own-controller">How to load your own controller</h3>
+<p>This is simple. If you want to create your own controller and want to load it at the frontpage. Just create your controller at the <strong>Frontend Controller</strong> <code>inc/lib/Control/Frontend</code> directory. </p>
+<p>After the file is ready, open the <code>Control.class.php</code> file, and go to the <code>public static method frontend()</code> method. </p>
+<p>There are some variables in arrays as the value; 
+<code>$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss');</code></p>
+<p>Just add your controller name on it. If your file name is <code>store.control.php</code>. So the arrays become like this :</p>
+<p><code>$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss', 'store');</code></p>
+<h2 id="backend-method">Backend Method</h2>
+<p>Usage: <code>Control::backend();</code></p>
+<p>This will handle the controller which file will be included at the Backend controller.</p>
+<p>This method will call the file using <code>self::incBack((string) $vars)</code></p>
+<p>If the controller is not found, the 404 error will loaded.</p>
+<p>And Default controller is <code>default.control.php</code></p>
+<h2 id="error-method">ERROR Method</h2>
+<p>Usage: <code>Control::error((string) $vars='',(string) $val'');</code></p>
+<p>This method is to load the Error handler. The default is 404 not found. </p>
+<p>There are some error page already built. Specially for the system error, eg: <code>404</code>, <code>400</code>, <code>403</code>, <code>500</code></p>
+<p>Those error page had specific header so when it loaded it will read by the system as it.</p>
+<p>Anothere error pages are : </p>
+<ul>
+<li>Database Error <code>db</code></li>
+<li>Unknown Error <code>unknown</code></li>
+<li>No Access error <code>noaccess</code></li>
+</ul>
+<h3 id="how-to-use-error-handler">How to use Error Handler</h3>
+<p>Using error handle is simple. Below are some examples how to use it.</p>
+<h4 id="404-not-found-page">404 Not Found Page</h4>
+<pre><code class="php">$file = &quot;/path/to/file.php&quot;;
+if ( file_exists($file) ) {
+    include($file);
+}else{
+    Control::error('404');
+}
+</code></pre>
+
+<h4 id="no-access-restricted-access">No Access / Restricted Access</h4>
+<pre><code class="php">if(User::access(2)){
+   echo &quot;You are ready to go.&quot;;
+}else{
+   Control::error('noaccess');
+}
+</code></pre>
+
+<h4 id="database-error">Database Error</h4>
+<pre><code class="php">$mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+$sql = 'SELECT * FROM `table` WHERE `id` = '{$id}'';
+$db = $mysqli-&gt;query($sql);
+if(!$db){
+   Control::error('db', $mysqli-&gt;error);
+}
+</code></pre>
+
+<h3 id="creating-your-own-error-page">Creating Your own Error Page</h3>
+<p>If yo want to use your error handler, just create a file at Error directory inside the Control directory.</p>
+<p>And load it when there is an error with your desired error pages.</p>
+<h2 id="ajax-method">Ajax Method</h2>
+<p>This method used when we call the ajax request. All ajax file located at <code>inc/lib/Control/Ajax</code>. </p></div>
+        </div>
+
+    <footer class="col-md-12">
+        <hr>
+        
+        <div class="col-md-12 text-center">
+            <h5>Built with <span class="fa fa-heart text-danger"></span> by <a href="https://metalgenix.com">MetalGenix</a> from Indonesia</h5>
+        </div>
+    </footer>
+
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script src="../../js/base.js"></script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </body>
+</html>

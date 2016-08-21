@@ -181,3 +181,5 @@ And load it when there is an error with your desired error pages.
 
 This method used when we call the ajax request. All ajax file located at `inc/lib/Control/Ajax`. 
 
+
+

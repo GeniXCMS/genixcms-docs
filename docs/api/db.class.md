@@ -172,3 +172,4 @@ Usage: `Db::escape(string $string);`
 
 
 This method used to escape string before submitted to database. 
+

@@ -1,5 +1,7 @@
 # Menus
 
+---
+
 Open the Menu manager at the left. Click the Menus link. 
 
 ![Menus Manager](../img/menus-manager.png)
@@ -12,8 +14,10 @@ Click one of the menu. It will shows list of menu items like this
 
 ![Menus Item](../img/menus-items.png)
 
+<br /><br />
 
 ## Add Item
+---
 To add a Menu item just click the Add Item tab, a new tab will appear. 
 
 ![](../img/menus-additem.png)

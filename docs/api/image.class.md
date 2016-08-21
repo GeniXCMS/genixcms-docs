@@ -45,3 +45,4 @@ This method will compress selected `png` type image. This method need image proc
 
 Ubuntu/Debian Server : `apt-get install pngquant`
 
+

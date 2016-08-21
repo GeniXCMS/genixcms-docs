@@ -1,10 +1,17 @@
 # Configuration
+
+---
+
 After You logged in to the Administrator area. Now it's time to Setting Up your site. 
 
 Click on the Setting Menu on the left side. 
 A new page will shows up .
 
+<br /><br />
+
 ## General Settings
+
+---
 
 ![General Settings](../img/general-settings.png)
 
@@ -18,15 +25,21 @@ Those are important. Especially for SEO.
 
 After those are filled up, go to the next tab.
 
+<br /><br />
+
 ## E-Mail
+
+---
 
 ![EMail Settings](../img/email-settings.png)
 
 This page is for email sending features. There are some options to be picked. 
 
+
 ### PHP Mail 
 
 If you want to send email just using your mail program just pick **Mail** at the **Mail/SMTP** options. And the other field is not necessary. 
+
 
 ### SMTP Server
 
@@ -36,11 +49,16 @@ Choose whether the SMTP is using Plain Authentification or Use SSL.
 
 Fill the SMTP Mailserver, SMTP Username, and SMTP Password you had. 
 
+<br /><br />
+
 ## Social 
+---
 This is Optional. Depends on the Themes you are using. If no options of using this so left it blank. 
 
-## Logo
+<br /><br />
 
+## Logo
+---
 ![Logo Settings](../img/logo-settings.png)
 
 ### Logo
@@ -53,7 +71,10 @@ It automatically will use the image url rather than the Uploaded Logo.
 ### Favicon
 Insert your favicon url. Full url if i may say. Since it won't trouble when the **SMART_URL** is activated. 
 
+<br /><br />
+
 ## Library
+---
 ![Library Settings](../img/library-settings.png)
 
 These are the dependencies we had to load for website to work well. We need :
@@ -68,7 +89,10 @@ jQuery and Fontawesome are from CDN and others are at assets directory.
 
 For jQuery, You can input which version you wanto to use. Just fill in the version number. Others are still not supported yet. 
 
+<br /><br />
+
 ## Posts
+---
 
 ![Posts Settings](../img/posts-settings.png)
 
@@ -78,7 +102,11 @@ For jQuery, You can input which version you wanto to use. Just fill in the versi
 
 **Pagination** type, there are two options. First is Number, and second is Pager. **Number** means the page will shows as numbers. and pager the page will shows as **Prev** and **Next**.
 
+<br /><br />
+
 ## Payment
+
+---
 
 ![Payment Settings](../img/payment-settings.png)
 

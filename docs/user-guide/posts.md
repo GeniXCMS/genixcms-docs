@@ -1,5 +1,7 @@
 # Posts
 
+---
+
 On the left Menu, Click the **Posts** menu. A new page will appear with empty list. 
 
 ![Posts Manager](../img/posts-manager.png)

@@ -184,3 +184,6 @@ This method will query the categories table and find the specific `id` and outpu
 See also:
 
 - [Db::result()](db.class.md)
+
+
+

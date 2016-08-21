@@ -1,5 +1,7 @@
 # Categories
 
+---
+
 Posts need **Category**. Before creating a new post, it's better if we add new Category first. At least One Category. 
 
 Click the Category Manager at the left menu. 
@@ -21,3 +23,4 @@ After category was added, will appear a box with category name.
 At the images, it shows two name. The top is **Main Category**, and The second is **Sub Category**. 
 
 Apparently, the main category cannot edited yet. 
+

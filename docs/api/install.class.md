@@ -30,3 +30,5 @@ Usage: `Install::createTable();`
 Return: `boolean`
 
 This will create the database table during the installation. 
+
+

@@ -1,4 +1,7 @@
 # Pages
+
+---
+
 On the left Menu, Click the **Pages** menu. A new page will appear with empty list. 
 
 ![Pages Manager](../img/pages-manager.png)

@@ -1,4 +1,7 @@
 # Dashboard
+
+---
+
 Dashboard is the administrator area for managing the CMS. It's Bootstrap based layout, so it is mobile friendly. 
 
 Basically, at the dashboard shows the statistics of the sites. Including latest posts, and amount of posts and pages. 
