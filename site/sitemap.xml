@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>https://docs.genixcms.org/</loc>
+     <loc>https://docs.genix.id/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,71 +12,19 @@
     
         
     <url>
-     <loc>https://docs.genixcms.org/about/about/</loc>
+     <loc>https://docs.genix.id/about/about/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/about/license/</loc>
+     <loc>https://docs.genix.id/about/license/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/about/credits/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/installation/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/dashboard/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/configuration/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/posts/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/category/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/pages/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/users/</loc>
-     <lastmod>2016-08-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://docs.genixcms.org/user-guide/menus/</loc>
+     <loc>https://docs.genix.id/about/credits/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -86,151 +34,203 @@
     
         
     <url>
-     <loc>https://docs.genixcms.org/api/categories.class/</loc>
+     <loc>https://docs.genix.id/user-guide/installation/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/control.class/</loc>
+     <loc>https://docs.genix.id/user-guide/dashboard/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/date.class/</loc>
+     <loc>https://docs.genix.id/user-guide/configuration/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/db.class/</loc>
+     <loc>https://docs.genix.id/user-guide/posts/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/gxmain.class/</loc>
+     <loc>https://docs.genix.id/user-guide/category/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/image.class/</loc>
+     <loc>https://docs.genix.id/user-guide/pages/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/install.class/</loc>
+     <loc>https://docs.genix.id/user-guide/users/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/mail.class/</loc>
+     <loc>https://docs.genix.id/user-guide/menus/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://docs.genix.id/api/categories.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/menus.class/</loc>
+     <loc>https://docs.genix.id/api/control.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/mod.class/</loc>
+     <loc>https://docs.genix.id/api/date.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/options.class/</loc>
+     <loc>https://docs.genix.id/api/db.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/paging.class/</loc>
+     <loc>https://docs.genix.id/api/gxmain.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/pinger.class/</loc>
+     <loc>https://docs.genix.id/api/image.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/posts.class/</loc>
+     <loc>https://docs.genix.id/api/install.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/rss.class/</loc>
+     <loc>https://docs.genix.id/api/mail.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/session.class/</loc>
+     <loc>https://docs.genix.id/api/menus.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/site.class/</loc>
+     <loc>https://docs.genix.id/api/mod.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/sitemap.class/</loc>
+     <loc>https://docs.genix.id/api/options.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/stats.class/</loc>
+     <loc>https://docs.genix.id/api/paging.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/system.class/</loc>
+     <loc>https://docs.genix.id/api/pinger.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/theme.class/</loc>
+     <loc>https://docs.genix.id/api/posts.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/typo.class/</loc>
+     <loc>https://docs.genix.id/api/rss.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/upload.class/</loc>
+     <loc>https://docs.genix.id/api/session.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/url.class/</loc>
+     <loc>https://docs.genix.id/api/site.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://docs.genixcms.org/api/user.class/</loc>
+     <loc>https://docs.genix.id/api/sitemap.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/stats.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/system.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/theme.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/typo.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/upload.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/url.class/</loc>
+     <lastmod>2016-08-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://docs.genix.id/api/user.class/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -239,7 +239,7 @@
 
     
     <url>
-     <loc>https://docs.genixcms.org/privacy-policy/</loc>
+     <loc>https://docs.genix.id/privacy-policy/</loc>
      <lastmod>2016-08-17</lastmod>
      <changefreq>daily</changefreq>
     </url>

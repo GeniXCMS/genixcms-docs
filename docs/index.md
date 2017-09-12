@@ -5,7 +5,7 @@
 
 ----
 
-This is a Documentation page of **[GeniXCMS](http://genixcms.org)**. We will explain more details about how to use and make a good applications with **GeniXCMS**.
+This is a Documentation page of **[GeniXCMS](http://genix.id)**. We will explain more details about how to use and make a good applications with **GeniXCMS**.
 
 <br /><br />
 

@@ -37,7 +37,7 @@ This CMSF is a starter point to build your own online applications. With already
 
 ### Showcase ###
 ---
-Showcase URL : [http://demo.genixcms.org](http://demo.genixcms.org)
+Showcase URL : [http://demo.genix.id](http://demo.genix.id)
 
 <br /><br />
 
@@ -49,7 +49,7 @@ Showcase URL : [http://demo.genixcms.org](http://demo.genixcms.org)
 
 ### Website ###
 ---
-Link : [http://www.genixcms.org](http://www.genixcms.org)
+Link : [http://www.genix.id](http://www.genix.id)
 
 <br /><br />
 
