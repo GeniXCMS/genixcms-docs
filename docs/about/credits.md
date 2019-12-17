@@ -12,7 +12,7 @@
 - Summernote Text Editor
     + Summernote Floats BS
     + Summernote Image Attribute
-- SB-Admin 2 Admin Dashboard
+- AdminLTE Admin Dashboard
 - JQuery & JQuery UI
 - HighlightJS
 - Flag Icon

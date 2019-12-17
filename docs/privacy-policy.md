@@ -137,7 +137,7 @@ If there are any questions regarding this privacy policy, you may contact us usi
 
 ```text
 GeniXCMS
-- genix.id
-- info@genixcms.com
+- metalgenix.com
+- info@metalgenix.com
 ```
 Last Edited on 2016-08-17
