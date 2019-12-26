@@ -1,11 +1,11 @@
 site_name: GeniXCMS Docs
-site_url: https://docs.genix.id
+site_url: http://genixcms.rtfd.io/
 repo_url: https://github.com/semplon/GeniXCMS
 site_description: GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS
 site_author: Puguh Wijayanto
 use_directory_urls: true
 site_favicon: favicon.ico
-theme_dir: genixcms
+# theme_dir: genixcms
 pages:
 - Home: 'index.md'
 - About: 
