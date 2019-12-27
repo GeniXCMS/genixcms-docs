@@ -6,7 +6,7 @@
 @package: GeniXCMS
 @since: 0.0.1
 @author: Puguh Wijayanto (www.metalgenix.com)
-@copyright: 2014-2016 Puguh Wijayanto
+@copyright: 2014-2019 Puguh Wijayanto
 @license: MIT License
 ```
 
@@ -45,7 +45,6 @@ That methods calls will create output like this.
 	<option value="1">Category Name</option>
 	...
 </select>
-
 ```
 
 Explanation:

@@ -7,6 +7,7 @@ use_directory_urls: true
 site_favicon: favicon.ico
 # theme_dir: genixcms
 theme: readthedocs
+# theme: material
 pages:
 - Home: 'index.md'
 - About: 

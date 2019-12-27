@@ -32,14 +32,14 @@ Even when You are not a programmer, you can build your own website using it. Ver
 
 ### Requirements ###
 ---
-* PHP >=**7.5.2**
+* PHP >=**7.2.5**
 * MySQL >=**4**
 
 <br /><br />
 
 ### Showcase ###
 ---
-Showcase URL : [http://demo.genix.id](http://demo.genix.id)
+Showcase URL : [https://www.softaculous.com/demos/GeniXCMS](https://www.softaculous.com/demos/GeniXCMS)
 
 <br /><br />
 
@@ -51,7 +51,7 @@ Showcase URL : [http://demo.genix.id](http://demo.genix.id)
 
 ### Website ###
 ---
-Link : [http://www.genix.id](http://www.genix.id)
+Link : [https://github.com/semplon/GeniXCMS](https://github.com/semplon/GeniXCMS)
 
 <br /><br />
 

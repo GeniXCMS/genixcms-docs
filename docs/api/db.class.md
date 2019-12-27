@@ -6,14 +6,14 @@
 @package: GeniXCMS
 @since: 0.0.1
 @author: Puguh Wijayanto (www.metalgenix.com)
-@copyright: 2014-2016 Puguh Wijayanto
+@copyright: 2014-2019 Puguh Wijayanto
 @license: MIT License
 ```
 
 > This Documentation is still need improvement.
 
 
-This class is for managing and for processing the database. We are using MySQL database. Right now there are two database driver used, `mysql` and `mysqli`. And will be added in the next release for **PDO** driver.
+This class is for managing and for processing the database. We are using MySQL database. Right now there are two database driver used `mysqli`. And will be added in the next release for **PDO** driver.
 
 
 ## Constructor
@@ -25,7 +25,7 @@ Database connection executed on the constructor. All database settings are defin
 
 Usage: `Db::connect();` 
 
-Result: ``
+Result: `boolean`
 
 This method was used to connect into database. Currently the connection type is just `mysqli`. Will be added more soon. 
 
@@ -171,5 +171,5 @@ $del = Db::insert("INSERT INTO `table_name` VALUES (null, '{$_POST['name]}')");
 Usage: `Db::escape(string $string);`
 
 
-This method used to escape string before submitted to database. 
+This method used to escape string before submitted to database. We use MySQLi escape function to escape the characters.
 
