@@ -7,7 +7,7 @@ Installing **GeniXCMS** is easy. Below are some step to follow to install GeniXC
 ---
 Before starting installation, please make sure your webserver is meet this requirements.
 
-* Using PHP >= **7.5.2**
+* Using PHP >= **7.2.5**
 * Using MySQL Server at least version 4
 
 That's the minimal requirements we need. But don't forget to install the **webserver** already. Since this application will run on the webserver. You can use any kinds webserver as you want. 
