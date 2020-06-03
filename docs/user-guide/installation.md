@@ -1,8 +1,7 @@
 # Installation
 ---
-
 Installing **GeniXCMS** is easy. Below are some step to follow to install GeniXCMS from zero.
-<br /><br />
+<br />
 ## Requirements
 ---
 Before starting installation, please make sure your webserver is meet this requirements.
@@ -17,7 +16,7 @@ That's the minimal requirements we need. But don't forget to install the **webse
 * [**Nginx Server**](http://www.nginx.org) + PHP-FPM
 * **MariaDB** Server
 
-<br /><br />
+<br />
 ## Uploading Files
 ---
 
@@ -37,7 +36,8 @@ The next step is setting up the file permission so it can be write during the in
 - assets/media/**images**
 - assets/media/**videos**
 
-<br /><br />
+<br />
+
 ## Preparing Database
 
 ---
@@ -46,18 +46,18 @@ Installation cannot be run before the database is set. So, go to the **Database 
 
 Save the **database username**, **database name** and **database the password**. We will need this for the next step.
 
-<br /><br />
+<br />
+
 ## Run the installation
 ---
 
 To run the installer is simple. Just open your site at the browser. An installation wizard will shows up. Just fill in the field and follow the wizard until finish. 
 
-<br /><br />
+<br />
+
 ## Login Dashboard
 ---
 
 After the installation is done. Now follow the link at the end of the installation and login to dashboard.
 
 Login with **Username** and **Password** just You submit.
-
----

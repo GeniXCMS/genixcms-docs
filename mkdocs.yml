@@ -1,54 +1,122 @@
 site_name: GeniXCMS Docs
-site_url: http://genixcms.rtfd.io/
+site_url: https://docs.metalgenix.com/genixcms/
 repo_url: https://github.com/GeniXCMS/genixcms-docs
 site_description: GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS
-site_author: Puguh Wijayanto
-use_directory_urls: true
-site_favicon: favicon.ico
+site_author: MetalGenix
+# use_directory_urls: true
+# site_favicon: favicon.ico
 # theme_dir: genixcms
-theme: readthedocs
-# theme: material
-pages:
+# theme: readthedocs
+theme: 
+  name: material
+    # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  favicon: favicon.ico
+  # logo: ../img/genixcms-logo-sign-small.png
+
+# Copyright
+copyright: "Copyright &copy; 2020, build with <i class='fa fa-heart'></i> by MetalGenix"
+
+# Options
+extra:
+  search:
+    languages: "en"
+  social:
+    - type: globe
+      link: https://metalgenix.com/
+    - type: github-alt
+      link: https://github.com/semplon/GeniXCMS
+    - type: twitter
+      link: https://twitter.com/genixcms
+      
+markdown_extensions:
+  - admonition
+  # - codehilite:
+  #     linenums: true
+  #     guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      css_class: codehilite
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            startinline: true
+        - name: bash
+          lang: bash
+          options:
+            startinline: true
+  - pymdownx.inlinehilite:
+      css_class: codehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      css_class: codehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
 - Home: 'index.md'
 - About: 
-    - About: 'about/about.md'
-    - License: 'about/license.md'
-    - Credits: 'about/credits.md'
+  - About: 'about/about.md'
+  - License: 'about/license.md'
+  - Credits: 'about/credits.md'
 - User Guide: 
-    - Installation: 'user-guide/installation.md'
-    - Dashboard: 'user-guide/dashboard.md'
-    - Configuration: 'user-guide/configuration.md'
-    - Posts: 'user-guide/posts.md'
-    - Categories: 'user-guide/category.md'
-    - Pages: 'user-guide/pages.md'
-    - Users: 'user-guide/users.md'
-    - Menus: 'user-guide/menus.md'
+  - Installation: 'user-guide/installation.md'
+  - Dashboard: 'user-guide/dashboard.md'
+  - Configuration: 'user-guide/configuration.md'
+  - Posts: 'user-guide/posts.md'
+  - Categories: 'user-guide/category.md'
+  - Pages: 'user-guide/pages.md'
+  - Users: 'user-guide/users.md'
+  - Menus: 'user-guide/menus.md'
 - API:
-    - Categories Class: 'api/categories.class.md'
-    - Control Class: 'api/control.class.md'
-    - Date Class: 'api/date.class.md'
-    - Db Class: 'api/db.class.md'
-    - GxMain Class: 'api/gxmain.class.md'
-    - Image Class: 'api/image.class.md'
-    - Install Class: 'api/install.class.md'
-    - Mail Class: 'api/mail.class.md'
-    - Menus Class: 'api/menus.class.md'
-    - Mod Class: 'api/mod.class.md'
-    - Options Class: 'api/options.class.md'
-    - Paging Class: 'api/paging.class.md'
-    - Pinger Class: 'api/pinger.class.md'
-    - Posts Class: 'api/posts.class.md'
-    - Rss Class: 'api/rss.class.md'
-    - Session Class: 'api/session.class.md'
-    - Site Class: 'api/site.class.md'
-    - Sitemap Class: 'api/sitemap.class.md'
-    - Stats Class: 'api/stats.class.md'
-    - System Class: 'api/system.class.md'
-    - Theme Class: 'api/theme.class.md'
-    - Typo Class: 'api/typo.class.md'
-    - Upload Class: 'api/upload.class.md'
-    - Url Class: 'api/url.class.md'
-    - User Class: 'api/user.class.md'
+  - Categories Class: 'api/categories.class.md'
+  - Control Class: 'api/control.class.md'
+  - Date Class: 'api/date.class.md'
+  - Db Class: 'api/db.class.md'
+  - GxMain Class: 'api/gxmain.class.md'
+  - Image Class: 'api/image.class.md'
+  - Install Class: 'api/install.class.md'
+  - Mail Class: 'api/mail.class.md'
+  - Menus Class: 'api/menus.class.md'
+  - Mod Class: 'api/mod.class.md'
+  - Options Class: 'api/options.class.md'
+  - Paging Class: 'api/paging.class.md'
+  - Pinger Class: 'api/pinger.class.md'
+  - Posts Class: 'api/posts.class.md'
+  - Rss Class: 'api/rss.class.md'
+  - Session Class: 'api/session.class.md'
+  - Site Class: 'api/site.class.md'
+  - Sitemap Class: 'api/sitemap.class.md'
+  - Stats Class: 'api/stats.class.md'
+  - System Class: 'api/system.class.md'
+  - Theme Class: 'api/theme.class.md'
+  - Typo Class: 'api/typo.class.md'
+  - Upload Class: 'api/upload.class.md'
+  - Url Class: 'api/url.class.md'
+  - User Class: 'api/user.class.md'
 - Privacy Policy: 'privacy-policy.md'
-
-

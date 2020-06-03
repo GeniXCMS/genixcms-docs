@@ -1,10 +1,7 @@
 # About GeniXCMS
-
 ---
-
 **GeniXCMS** is a PHP Based Content Management System and Framework (*CMSF*). It's a simple and lightweight of CMSF. Very suitable for **Intermediate PHP developer** to **Advanced Developer**. Even so, GeniXCMS can be used as ordinary website like blog, portals, company profile etc. It's built with a very user friendly themes to modify. 
 
-<br /><br />
 
 ### Why GeniXCMS 
 ---
@@ -13,7 +10,6 @@ This CMSF is a starter point to build your own online applications. With already
 
 Even when You are not a programmer, you can build your own website using it. Very easy to manage. 
 
-<br /><br />
 
 ### Credits ###
 ---
@@ -28,32 +24,29 @@ Even when You are not a programmer, you can build your own website using it. Ver
 - **Bootstrap Validator**,
 - etc.
 
-<br /><br />
 
 ### Requirements ###
 ---
 * PHP >=**7.2.5**
 * MySQL >=**4**
 
-<br /><br />
 
 ### Showcase ###
 ---
 Showcase URL : [https://www.softaculous.com/demos/GeniXCMS](https://www.softaculous.com/demos/GeniXCMS)
 
-<br /><br />
+
 
 ### License ###
 ---
 **GeniXCMS** License : [**MIT License**](license.md)
 
-<br /><br />
 
 ### Website ###
 ---
 Link : [https://github.com/semplon/GeniXCMS](https://github.com/semplon/GeniXCMS)
 
-<br /><br />
+
 
 ### Developer ###
 ---

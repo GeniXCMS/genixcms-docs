@@ -1,16 +1,17 @@
 # DB Class
 
 ```php
-@filename: Db.class.php
-@location: inc/lib/
-@package: GeniXCMS
-@since: 0.0.1
-@author: Puguh Wijayanto (www.metalgenix.com)
-@copyright: 2014-2019 Puguh Wijayanto
-@license: MIT License
+# filename: Db.class.php
+# location: inc/lib/
+# package: GeniXCMS
+# since: 0.0.1
+# author: Puguh Wijayanto (www.metalgenix.com)
+# copyright: 2014-2019 Puguh Wijayanto
+# license: MIT License
 ```
 
-> This Documentation is still need improvement.
+!!! info
+    This Documentation is still need improvement.
 
 
 This class is for managing and for processing the database. We are using MySQL database. Right now there are two database driver used `mysqli`. And will be added in the next release for **PDO** driver.
@@ -18,16 +19,17 @@ This class is for managing and for processing the database. We are using MySQL d
 
 ## Constructor
 
-Database connection executed on the constructor. All database settings are defined at the **config.php** file located at `inc/config/`. 
+Database connection executed on the constructor. All database settings are defined at the **config.php** file located at `#!php inc/config/`. 
 
+Constructor will connect database with configuration inside config.php on every load. The database configuration was defined during installation and saved on config.php file. 
 
 ## Connect Method
 
-Usage: `Db::connect();` 
+Usage: `#!php Db::connect();` 
 
-Result: `boolean`
+Result: `#!php boolean`
 
-This method was used to connect into database. Currently the connection type is just `mysqli`. Will be added more soon. 
+This method was used to connect into database. Currently the connection type is just `#!php mysqli`. Will be added more soon. 
 
 To use the method is simple. When you create an independent file and need a database connection just execute it before run the query. 
 
@@ -35,7 +37,7 @@ To use the method is simple. When you create an independent file and need a data
 Db::connect();
 ```
 
-When the configurations are not set, it takes fron the config.php file. But when you want to connect into the different database, just run this.
+When the configurations are not set, it takes from the **config.php** file. But when you want to connect into the different database, just run this.
 
 ```php
 Db::connect($host,$user,$pass,$dbname);
@@ -43,9 +45,9 @@ Db::connect($host,$user,$pass,$dbname);
 
 ## Query Method
 
-Usage: `Db::query(string $var);`
+Usage: `#!php Db::query(string $var);`
 
-Result: `array`
+Result: `#!php array`
 
 This method is used to query the database. To call e query is simple. See the sample below. 
 
@@ -57,36 +59,48 @@ Right now the query is still a simple query. In the future this had to be advanc
 
 ## Result Method
 
-Usage: `Db::result(array $arr);`
+Usage: `#!php Db::result(array $arr);`
 
-Result: `object`
+Result: `#!php object`
 
 This method used to get a list of data from table in an object structure. To use it see code below.
 
 ```php
-$data = Db::result("SELECT * FROM `table_name` ORDER BY `id` LIMIT 10");
+$data = Db::result("SELECT * FROM `cat` ORDER BY `id` LIMIT 10");
 ```
 
 This query will result :
 
 ```php
-array(
-	[0] -> array(
-				'name' => '',
-				'date' => ''
-			),
-	[1] -> array(
-				'name' => '',
-				'date' => ''
-			),
+Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [name] => News
+            [slug] => news
+            [parent] => 0
+            [desc] => 
+            [type] => post
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 2
+            [name] => Info
+            [slug] => info
+            [parent] => 0
+            [desc] => 
+            [type] => post
+        )
 );
 ```
 
 ## Delete Method
 
-Usage: `Db::delete(int $id);`
+Usage: `#!php Db::delete(int $id);`
 
-Result: `string`
+Result: `#!php bool`
 
 This method used to delete a row of data at the table by specified where clause. See sample below :
 
@@ -101,14 +115,17 @@ $vars = array(
 $del = Db::delete($vars);
 ```
 
-The code above will delete data in a row which had the `$id` value.
+The code above will delete data in a row which had the `#!php $id` value.
 
+See also: 
+
+ - [Typo::int()](typo.class.md)
 
 ## Update Method
 
-Usage: `Db::update(array $var);`
+Usage: `#!php Db::update(array $var);`
 
-This method will be update the specified row in a table by specific `$id`.
+This method will update the specified row in a table by specific `#!php $id`.
 
 See sample below :
 
@@ -139,7 +156,7 @@ $update = Db::update("UPDATE `table_name` SET `name`='{$_POST['name]}' WHERE `id
 
 ## Insert Method
 
-Usage: `Db::insert(array $var);`
+Usage: `#!php Db::insert(array $var);`
 
 This method will insert data into the table on the database. See sample below :
 ### Array Mode
@@ -168,7 +185,7 @@ $del = Db::insert("INSERT INTO `table_name` VALUES (null, '{$_POST['name]}')");
 
 ## Escape Method
 
-Usage: `Db::escape(string $string);`
+Usage: `#!php Db::escape(string $string);`
 
 
 This method used to escape string before submitted to database. We use MySQLi escape function to escape the characters.

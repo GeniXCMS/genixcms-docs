@@ -1,15 +1,16 @@
 # Pinger Class
 
 ```php
-@filename: Pinger.class.php
-@location: inc/lib/
-@package: GeniXCMS
-@since: 0.0.1
-@author: Puguh Wijayanto (www.metalgenix.com)
-@copyright: 2014-2019 Puguh Wijayanto
-@license: MIT License
+# filename: Pinger.class.php
+# location: inc/lib/
+# package: GeniXCMS
+# since: 0.0.1
+# author: Puguh Wijayanto (www.metalgenix.com)
+# copyright: 2014-2019 Puguh Wijayanto
+# license: MIT License
 ```
 
-> This Documentation is still need improvement.
+!!! info
+    This Documentation is still need improvement.
 
 

@@ -1,16 +1,17 @@
 # Install Class
 
 ```php
-@filename: Install.class.php
-@location: inc/lib/
-@package: GeniXCMS
-@since: 0.0.1
-@author: Puguh Wijayanto (www.metalgenix.com)
-@copyright: 2014-2019 Puguh Wijayanto
-@license: MIT License
+# filename: Install.class.php
+# location: inc/lib/
+# package: GeniXCMS
+# since: 0.0.1
+# author: Puguh Wijayanto (www.metalgenix.com)
+# copyright: 2014-2019 Puguh Wijayanto
+# license: MIT License
 ```
 
-> This Documentation is still need improvement.
+!!! info
+    This Documentation is still need improvement.
 
 The Install Class used to install the script. It contains some method. 
 
