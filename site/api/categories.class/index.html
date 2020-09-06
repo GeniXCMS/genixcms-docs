@@ -13,7 +13,7 @@
         <meta name="description" content="GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS">
       
       
-        <link rel="canonical" href="https://docs.metalgenix.com/genixcms/api/categories.class/">
+        <link rel="canonical" href="https://docs.genix.me/api/categories.class/">
       
       
         <meta name="author" content="MetalGenix">
@@ -37,7 +37,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
@@ -100,7 +100,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://docs.metalgenix.com/genixcms/" title="GeniXCMS Docs" class="md-header-nav__button md-logo">
+        <a href="https://docs.genix.me/" title="GeniXCMS Docs" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -255,7 +255,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://docs.metalgenix.com/genixcms/" title="GeniXCMS Docs" class="md-nav__button md-logo">
+    <a href="https://docs.genix.me/" title="GeniXCMS Docs" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -970,23 +970,24 @@
                 
                 
                 <h1 id="categories-class">Categories Class<a class="headerlink" href="#categories-class" title="Permanent link">&para;</a></h1>
-<div class="codehilite"><pre><span></span><span class="o">@</span><span class="nx">filename</span><span class="o">:</span> <span class="nx">Categories</span><span class="o">.</span><span class="nx">class</span><span class="o">.</span><span class="nx">php</span>
-<span class="o">@</span><span class="nx">location</span><span class="o">:</span> <span class="nx">inc</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span>
-<span class="o">@</span><span class="nx">package</span><span class="o">:</span> <span class="nx">GeniXCMS</span>
-<span class="o">@</span><span class="nx">since</span><span class="o">:</span> <span class="mf">0.0</span><span class="o">.</span><span class="mi">1</span>
-<span class="o">@</span><span class="nx">author</span><span class="o">:</span> <span class="nx">Puguh</span> <span class="nx">Wijayanto</span> <span class="p">(</span><span class="nx">www</span><span class="o">.</span><span class="nx">metalgenix</span><span class="o">.</span><span class="nx">com</span><span class="p">)</span>
-<span class="o">@</span><span class="nx">copyright</span><span class="o">:</span> <span class="mi">2014</span><span class="o">-</span><span class="mi">2019</span> <span class="nx">Puguh</span> <span class="nx">Wijayanto</span>
-<span class="o">@</span><span class="nx">license</span><span class="o">:</span> <span class="nx">MIT</span> <span class="nx">License</span>
+<div class="codehilite"><pre><span></span><span class="c1"># filename: Categories.class.php</span>
+<span class="c1"># location: inc/lib/</span>
+<span class="c1"># package: GeniXCMS</span>
+<span class="c1"># since: 0.0.1</span>
+<span class="c1"># author: Puguh Wijayanto (www.metalgenix.com)</span>
+<span class="c1"># copyright: 2014-2019 Puguh Wijayanto</span>
+<span class="c1"># license: MIT License</span>
 </pre></div>
 
-<blockquote>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>This Documentation is still need improvement.</p>
-</blockquote>
-<p>This class is to manage the Categories. This category structure is very simple. </p>
+</div>
+<p>This class is to manage the <strong>Categories</strong>. This category structure is very simple. </p>
 <p>An improvement probably added in the future. Below are the explanation each method at the Categories Class.</p>
 <h2 id="dropdown-method">Dropdown Method<a class="headerlink" href="#dropdown-method" title="Permanent link">&para;</a></h2>
-<p>Usage : <code>echo Categories::dropdown(array $vars);</code></p>
-<p>Return: <code>string</code></p>
+<p>Usage : <code class="codehilite"><span class="k">echo</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">dropdown</span><span class="p">(</span><span class="k">array</span> <span class="nv">$vars</span><span class="p">);</span></code></p>
+<p>Return: <code class="codehilite"><span class="nx">string</span></code></p>
 <p>This method to create an automatic dropdown options from available categories at the database. It means we can create dropdown so easy, just fill in the parameters and a <strong>select input</strong> created automatically.</p>
 <p>Example:</p>
 <div class="codehilite"><pre><span></span><span class="nv">$vars</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
@@ -1018,11 +1019,10 @@
 <li><a href="../db.class/">Db::result()</a></li>
 </ul>
 <h2 id="lists-method">Lists Method<a class="headerlink" href="#lists-method" title="Permanent link">&para;</a></h2>
-<p>Usage : <code>echo Categories::lists(array $vars)</code></p>
-<p>This method will show the list of the Categories with the unordered list markup. </p>
+<p>Usage : <code class="codehilite"><span class="k">echo</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">lists</span><span class="p">(</span><span class="k">array</span> <span class="nv">$vars</span><span class="p">)</span></code></p>
+<p>This method will show the list of the <strong>Categories</strong> and <strong>Subcategories</strong> with the unordered list markup. </p>
 <p>example: </p>
 <div class="codehilite"><pre><span></span><span class="nv">$vars</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-             <span class="s1">&#39;name&#39;</span>      <span class="o">=&gt;</span>  <span class="s1">&#39;catname&#39;</span><span class="p">,</span>
              <span class="s1">&#39;parent&#39;</span>    <span class="o">=&gt;</span>  <span class="s1">&#39;parent&#39;</span><span class="p">,</span>
              <span class="s1">&#39;order_by&#39;</span>  <span class="o">=&gt;</span>  <span class="s1">&#39;&#39;</span><span class="p">,</span>
              <span class="s1">&#39;sort&#39;</span>      <span class="o">=&gt;</span>  <span class="s1">&#39;ASC&#39;</span><span class="p">,</span>
@@ -1031,8 +1031,9 @@
 </pre></div>
 
 <p>Explanation:</p>
+<!-- - **name**, this is the name  of the select input. -->
+
 <ul>
-<li><strong>name</strong>, this is the name  of the select input.</li>
 <li><strong>parent</strong>, this is the parent of the category you want to show. No parent or <em>empty</em> means all categories will shows up. </li>
 <li><strong>order_by</strong>, this is how you want the category ordered by. Available columns are : <code>id</code>, <code>name</code>, <code>slug</code>, <code>parent</code>, <code>desc</code> default is <code>id</code></li>
 <li><strong>sort</strong>, this is the options how your categories sorted, Ascending <code>ASC</code>, or Descending <code>DESC</code>. Default is <code>ASC</code></li>
@@ -1042,8 +1043,8 @@
 <li><a href="../db.class/">Db::result()</a></li>
 </ul>
 <h2 id="name-method">Name Method<a class="headerlink" href="#name-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>echo Categories::name(int '$id');</code></p>
-<p>Return: <code>string</code></p>
+<p>Usage: <code class="codehilite"><span class="k">echo</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">name</span><span class="p">(</span><span class="nx">int</span> <span class="s1">&#39;$id&#39;</span><span class="p">);</span></code></p>
+<p>Return: <code class="codehilite"><span class="nx">string</span></code></p>
 <p>This method will get the name of Category for the specific ID.</p>
 <p>example:</p>
 <p>we have a list of categories with sample below :</p>
@@ -1065,19 +1066,24 @@
 </tr>
 </tbody>
 </table>
-<div class="codehilite"><pre><span></span><span class="nv">$cat</span> <span class="o">=</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">name</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-<span class="k">echo</span> <span class="nv">$cat</span><span class="p">;</span>
+<div class="codehilite"><pre><span></span><span class="nv">$catName</span> <span class="o">=</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">name</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$catName</span><span class="p">;</span>
 </pre></div>
 
 <p>this will output <code>News</code>.</p>
+<div class="codehilite"><pre><span></span><span class="nv">$catName</span> <span class="o">=</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">name</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$catName</span><span class="p">;</span>
+</pre></div>
+
+<p>this will output <code>Article</code>.</p>
 <p>See also:</p>
 <ul>
 <li><a href="../db.class/">Db::result()</a></li>
 </ul>
 <h2 id="getparent-method">getParent Method<a class="headerlink" href="#getparent-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>echo Categories::getParent(int '$id');</code></p>
-<p>Return: <code>int</code></p>
-<p>This is to get the parent of a speicific ID.</p>
+<p>Usage: <code class="codehilite"><span class="k">echo</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">getParent</span><span class="p">(</span><span class="nx">int</span> <span class="s1">&#39;$id&#39;</span><span class="p">);</span></code></p>
+<p>Return: <code class="codehilite"><span class="nx">int</span></code></p>
+<p>This is to get the <strong>Parent ID</strong> of a speicific <strong>Category ID</strong>.</p>
 <p>example:</p>
 <p>we have a list of categories with sample below :</p>
 <table>
@@ -1116,17 +1122,54 @@
 <li><a href="../db.class/">Db::result()</a></li>
 </ul>
 <h2 id="delete-method">Delete Method<a class="headerlink" href="#delete-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Categories::delete(int '$id');</code></p>
-<p>Return: <code>bool</code></p>
-<p>This method will delete Category with a specific ID.</p>
+<p>Usage: <code class="codehilite"><span class="nx">Categories</span><span class="o">::</span><span class="na">delete</span><span class="p">(</span><span class="nx">int</span> <span class="s1">&#39;$id&#39;</span><span class="p">);</span></code></p>
+<p>Return: <code class="codehilite"><span class="nx">bool</span></code></p>
+<p>This method will delete a Category with a specific ID.</p>
 <p>See also:</p>
 <ul>
 <li><a href="../db.class/">Db::result()</a></li>
 </ul>
 <h2 id="type-method">Type Method<a class="headerlink" href="#type-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Categories::type(int '$id');</code></p>
-<p>Return: <code>string</code></p>
-<p>This method will query the categories table and find the specific <code>id</code> and output the type of the category.</p>
+<p>Usage: <code class="codehilite"><span class="nx">Categories</span><span class="o">::</span><span class="na">type</span><span class="p">(</span><span class="nx">int</span> <span class="s1">&#39;$id&#39;</span><span class="p">);</span></code></p>
+<p>Return: <code class="codehilite"><span class="nx">string</span></code></p>
+<p>This method will query the categories table and find the specific <code>id</code> and output the <strong>type of the category</strong>.</p>
+<p>example:</p>
+<p>we have a list of categories with sample below :</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Parent</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>News</td>
+<td>0</td>
+<td>post</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Article</td>
+<td>0</td>
+<td>post</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Latest</td>
+<td>1</td>
+<td>post</td>
+</tr>
+</tbody>
+</table>
+<div class="codehilite"><pre><span></span><span class="nv">$type</span> <span class="o">=</span> <span class="nx">Categories</span><span class="o">::</span><span class="na">type</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$type</span><span class="p">;</span>
+</pre></div>
+
+<p>this will output <code>post</code>.</p>
 <p>See also:</p>
 <ul>
 <li><a href="../db.class/">Db::result()</a></li>
@@ -1202,7 +1245,7 @@
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
-      <a href="https://metalgenix.com/" class="md-footer-social__link fa fa-globe"></a>
+      <a href="https://genix.me/" class="md-footer-social__link fa fa-globe"></a>
     
       <a href="https://github.com/semplon/GeniXCMS" class="md-footer-social__link fa fa-github-alt"></a>
     

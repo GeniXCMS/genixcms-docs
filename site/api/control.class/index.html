@@ -13,7 +13,7 @@
         <meta name="description" content="GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS">
       
       
-        <link rel="canonical" href="https://docs.metalgenix.com/genixcms/api/control.class/">
+        <link rel="canonical" href="https://docs.genix.me/api/control.class/">
       
       
         <meta name="author" content="MetalGenix">
@@ -37,7 +37,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
     
     
@@ -100,7 +100,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://docs.metalgenix.com/genixcms/" title="GeniXCMS Docs" class="md-header-nav__button md-logo">
+        <a href="https://docs.genix.me/" title="GeniXCMS Docs" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -255,7 +255,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://docs.metalgenix.com/genixcms/" title="GeniXCMS Docs" class="md-nav__button md-logo">
+    <a href="https://docs.genix.me/" title="GeniXCMS Docs" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -1132,19 +1132,20 @@
                 
                 
                 <h1 id="control-class">Control Class<a class="headerlink" href="#control-class" title="Permanent link">&para;</a></h1>
-<div class="codehilite"><pre><span></span><span class="o">@</span><span class="nx">filename</span><span class="o">:</span> <span class="nx">Control</span><span class="o">.</span><span class="nx">class</span><span class="o">.</span><span class="nx">php</span>
-<span class="o">@</span><span class="nx">location</span><span class="o">:</span> <span class="nx">inc</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span>
-<span class="o">@</span><span class="nx">package</span><span class="o">:</span> <span class="nx">GeniXCMS</span>
-<span class="o">@</span><span class="nx">since</span><span class="o">:</span> <span class="mf">0.0</span><span class="o">.</span><span class="mi">1</span>
-<span class="o">@</span><span class="nx">author</span><span class="o">:</span> <span class="nx">Puguh</span> <span class="nx">Wijayanto</span> <span class="p">(</span><span class="nx">www</span><span class="o">.</span><span class="nx">metalgenix</span><span class="o">.</span><span class="nx">com</span><span class="p">)</span>
-<span class="o">@</span><span class="nx">copyright</span><span class="o">:</span> <span class="mi">2014</span><span class="o">-</span><span class="mi">2019</span> <span class="nx">Puguh</span> <span class="nx">Wijayanto</span>
-<span class="o">@</span><span class="nx">license</span><span class="o">:</span> <span class="nx">MIT</span> <span class="nx">License</span>
+<div class="codehilite"><pre><span></span><span class="c1"># filename: Control.class.php</span>
+<span class="c1"># location: inc/lib/</span>
+<span class="c1"># package: GeniXCMS</span>
+<span class="c1"># since: 0.0.1</span>
+<span class="c1"># author: Puguh Wijayanto (www.metalgenix.com)</span>
+<span class="c1"># copyright: 2014-2019 Puguh Wijayanto</span>
+<span class="c1"># license: MIT License</span>
 </pre></div>
 
-<blockquote>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>This Documentation is still need improvement.</p>
-</blockquote>
-<p>This class is to load the controller at <code>inc/lib/Control</code> directories. Controllers needed to proccess the procedure and view the result at themes. </p>
+</div>
+<p>This class is to load the controller at <code class="codehilite"><span class="nx">inc</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">Control</span></code> directories. Controllers needed to proccess the procedure and view the result at themes. </p>
 <p>This is the hierarchy of MVC, as GeniXCMS is using MVC structure. </p>
 <p>The controller divided into some parts.</p>
 <ul>
@@ -1156,58 +1157,59 @@
 </ul>
 <p>This controller is flexible. You can create and add it at the <strong>Control Class</strong> to load it. </p>
 <h2 id="handler-method">Handler Method<a class="headerlink" href="#handler-method" title="Permanent link">&para;</a></h2>
-<blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>This method is deprecated and will be removed on future updates</p>
-</blockquote>
-<p>Usage: <code>Control::handler((string) $vars)</code></p>
+</div>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">handler</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="p">)</span></code></p>
 <p>This method is to load the controller types.</p>
 <p>Example: </p>
 <p>We want to call the <strong>Frontend Controller</strong>, so use this to load it. </p>
-<p><code>Control::handler('frontend');</code></p>
+<p><code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">handler</span><span class="p">(</span><span class="s1">&#39;frontend&#39;</span><span class="p">);</span></code></p>
 <p>This will load the Frontend Controller.</p>
 <h2 id="frontend-file-inclusion-method">Frontend File Inclusion Method<a class="headerlink" href="#frontend-file-inclusion-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::incFront((string) $vars);</code></p>
-<p>This method will load the file at the Frontend directory if the file is exist. If not it will load the 404 not found page. </p>
-<p>This method is needed by <code>Control::frontend()</code> method. </p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">incFront</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="p">);</span></code></p>
+<p>This method will load the file at the Frontend directory if the file is exist. If not it will load the <strong>404</strong> not found page. </p>
+<p>This method is needed by <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">frontend</span><span class="p">()</span></code> method. </p>
 <h2 id="backend-file-inclusion-method">Backend File Inclusion Method<a class="headerlink" href="#backend-file-inclusion-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::incBack((string) $vars);</code></p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">incBack</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="p">);</span></code></p>
 <p>This method will load the file at the Backend directory if the file is exist. If not it will load the <strong>404</strong> not found page. </p>
-<p>This method is needed by <code>Control::backend()</code> method. </p>
+<p>This method is needed by <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">backend</span><span class="p">()</span></code> method. </p>
 <h2 id="get-method">Get Method<a class="headerlink" href="#get-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::get(array $arr);</code></p>
-<p>This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method is only run when the <code>SMART_URL</code> is set as <code>false</code>.</p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">get</span><span class="p">(</span><span class="k">array</span> <span class="nv">$arr</span><span class="p">);</span></code></p>
+<p>This method used to get the http get request from URL. This work inside the Frontend method. On every get request, if the value is on the array the file will be include. This method is only run when the <code class="codehilite"><span class="nx">SMART_URL</span></code> is set as <code class="codehilite"><span class="k">false</span></code>.</p>
 <h2 id="route-method">Route Method<a class="headerlink" href="#route-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::route(array $arr);</code></p>
-<p>This method used when the <code>SMART_URL</code> was set as <code>true</code> and it will read the request uri at the url. On every value is match at the <code>$arr</code> the file will be included.</p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">route</span><span class="p">(</span><span class="k">array</span> <span class="nv">$arr</span><span class="p">);</span></code></p>
+<p>This method used when the <code class="codehilite"><span class="nx">SMART_URL</span></code> was set as <code class="codehilite"><span class="k">true</span></code> and it will read the request uri at the url. On every value is match at the <code class="codehilite"><span class="nv">$arr</span></code> the file will be included.</p>
 <h2 id="frontend-method">Frontend Method<a class="headerlink" href="#frontend-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::frontend();</code></p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">frontend</span><span class="p">();</span></code></p>
 <p>This will handle the controller which file will be included at the Frontend controller.</p>
-<p>This method will call the file using <code>self::incFront((string) $vars)</code></p>
-<p>If the controller is not found, the 404 error will loaded.</p>
-<p>And Default controller is <code>default.control.php</code></p>
+<p>This method will call the file using <code class="codehilite"><span class="nx">self</span><span class="o">::</span><span class="na">incFront</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="p">)</span></code></p>
+<p>If the controller is not found, the <strong>404</strong> error will loaded.</p>
+<p>And Default controller is <code class="codehilite"><span class="k">default</span><span class="o">.</span><span class="nx">control</span><span class="o">.</span><span class="nx">php</span></code></p>
 <h3 id="how-to-load-your-own-controller">How to load your own controller<a class="headerlink" href="#how-to-load-your-own-controller" title="Permanent link">&para;</a></h3>
-<p>This is simple. If you want to create your own controller and want to load it at the frontpage. Just create your controller at the <strong>Frontend Controller</strong> <code>inc/lib/Control/Frontend</code> directory. </p>
-<p>After the file is ready, open the <code>Control.class.php</code> file, and go to the <code>public static method frontend()</code> method. </p>
-<p>There are some variables in arrays as the value; 
-<code>$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss');</code></p>
-<p>Just add your controller name on it. If your file name is <code>store.control.php</code>. So the arrays become like this :</p>
-<p><code>$arr = array ('post','page', 'cat', 'mod', 'sitemap', 'rss', 'store');</code></p>
+<p>This is simple. If you want to create your own controller and want to load it at the frontpage. Just create your controller at the <strong>Frontend Controller</strong> : <code class="codehilite"><span class="nx">inc</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">Control</span><span class="o">/</span><span class="nx">Frontend</span></code> directory. </p>
+<p>After the file is ready, open the <code class="codehilite"><span class="nx">Control</span><span class="o">.</span><span class="nx">class</span><span class="o">.</span><span class="nx">php</span></code> file, and go to the <code class="codehilite"><span class="k">public</span> <span class="k">static</span> <span class="nx">method</span> <span class="nx">frontend</span><span class="p">()</span></code> method. </p>
+<p>There are some variables in arrays as the value; </p>
+<p><code class="codehilite"><span class="nv">$arr</span> <span class="o">=</span> <span class="k">array</span> <span class="p">(</span><span class="s1">&#39;post&#39;</span><span class="p">,</span><span class="s1">&#39;page&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;mod&#39;</span><span class="p">,</span> <span class="s1">&#39;sitemap&#39;</span><span class="p">,</span> <span class="s1">&#39;rss&#39;</span><span class="p">);</span></code></p>
+<p>Just add your controller name on it. If your file name is <code class="codehilite"><span class="nx">store</span><span class="o">.</span><span class="nx">control</span><span class="o">.</span><span class="nx">php</span></code>. So the arrays become like this :</p>
+<p><code class="codehilite"><span class="nv">$arr</span> <span class="o">=</span> <span class="k">array</span> <span class="p">(</span><span class="s1">&#39;post&#39;</span><span class="p">,</span><span class="s1">&#39;page&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;mod&#39;</span><span class="p">,</span> <span class="s1">&#39;sitemap&#39;</span><span class="p">,</span> <span class="s1">&#39;rss&#39;</span><span class="p">,</span> <span class="s1">&#39;store&#39;</span><span class="p">);</span></code></p>
 <h2 id="backend-method">Backend Method<a class="headerlink" href="#backend-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::backend();</code></p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">backend</span><span class="p">();</span></code></p>
 <p>This will handle the controller which file will be included at the Backend controller.</p>
-<p>This method will call the file using <code>self::incBack((string) $vars)</code></p>
+<p>This method will call the file using <code class="codehilite"><span class="nx">self</span><span class="o">::</span><span class="na">incBack</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="p">)</span></code></p>
 <p>If the controller is not found, the 404 error will loaded.</p>
 <p>And Default controller is <code>default.control.php</code></p>
 <h2 id="error-method">ERROR Method<a class="headerlink" href="#error-method" title="Permanent link">&para;</a></h2>
-<p>Usage: <code>Control::error((string) $vars='',(string) $val'');</code></p>
+<p>Usage: <code class="codehilite"><span class="nx">Control</span><span class="o">::</span><span class="na">error</span><span class="p">((</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$vars</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$val</span><span class="s1">&#39;&#39;</span><span class="p">);</span></code></p>
 <p>This method is to load the Error handler. The default is 404 not found. </p>
 <p>There are some error page already built. Specially for the system error, eg: <code>404</code>, <code>400</code>, <code>403</code>, <code>500</code></p>
 <p>Those error page had specific header so when it loaded it will read by the system as it.</p>
 <p>Anothere error pages are : </p>
 <ul>
-<li>Database Error <code>db</code></li>
-<li>Unknown Error <code>unknown</code></li>
-<li>No Access error <code>noaccess</code></li>
+<li>Database Error <code class="codehilite"><span class="nx">db</span></code></li>
+<li>Unknown Error <code class="codehilite"><span class="nx">unknown</span></code></li>
+<li>No Access error <code class="codehilite"><span class="nx">noaccess</span></code></li>
 </ul>
 <h3 id="how-to-use-error-handler">How to use Error Handler<a class="headerlink" href="#how-to-use-error-handler" title="Permanent link">&para;</a></h3>
 <p>Using error handle is simple. Below are some examples how to use it.</p>
@@ -1241,7 +1243,7 @@
 <p>If yo want to use your error handler, just create a file at Error directory inside the Control directory.</p>
 <p>And load it when there is an error with your desired error pages.</p>
 <h2 id="ajax-method">Ajax Method<a class="headerlink" href="#ajax-method" title="Permanent link">&para;</a></h2>
-<p>This method used when we call the ajax request. All ajax file located at <code>inc/lib/Control/Ajax</code>. </p>
+<p>This method used when we call the ajax request. All ajax file located at <code class="codehilite"><span class="nx">inc</span><span class="o">/</span><span class="nx">lib</span><span class="o">/</span><span class="nx">Control</span><span class="o">/</span><span class="nx">Ajax</span></code>. </p>
                 
                   
                 
@@ -1313,7 +1315,7 @@
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
-      <a href="https://metalgenix.com/" class="md-footer-social__link fa fa-globe"></a>
+      <a href="https://genix.me/" class="md-footer-social__link fa fa-globe"></a>
     
       <a href="https://github.com/semplon/GeniXCMS" class="md-footer-social__link fa fa-github-alt"></a>
     
