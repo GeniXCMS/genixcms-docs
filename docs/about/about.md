@@ -50,5 +50,5 @@ Link : [https://github.com/semplon/GeniXCMS](https://github.com/semplon/GeniXCMS
 
 ### Developer ###
 ---
-Developed by : Puguh Wijayanto - [https://metalgenix.com](https://metalgenix.com)
+Developed by : Puguh Wijayanto - [https://genix.me](https://genix.me)
 

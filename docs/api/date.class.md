@@ -6,7 +6,7 @@
 # package: GeniXCMS
 # since: 0.0.3
 # author: Puguh Wijayanto (www.metalgenix.com)
-# copyright: 2014-2019 Puguh Wijayanto
+# copyright: 2014-2020 Puguh Wijayanto
 # license: MIT License
 ```
 
