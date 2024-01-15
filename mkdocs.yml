@@ -1,5 +1,5 @@
 site_name: GeniXCMS Docs
-site_url: https://docs.genix.me/
+site_url: https://docs.genixcms.my.id/
 repo_url: https://github.com/GeniXCMS/genixcms-docs
 site_description: GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS
 site_author: MetalGenix
@@ -32,7 +32,7 @@ extra:
     languages: "en"
   social:
     - type: globe
-      link: https://genix.me/
+      link: https://genixcms.my.id/
     - type: github-alt
       link: https://github.com/semplon/GeniXCMS
     - type: twitter
