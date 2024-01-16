@@ -5,8 +5,8 @@
 # location: inc/lib/
 # package: GeniXCMS
 # since: 0.0.1
-# author: Puguh Wijayanto (www.metalgenix.com)
-# copyright: 2014-2020 Puguh Wijayanto
+# author: Puguh Wijayanto (metalgenix.id)
+# copyright: 2014-2024 Puguh Wijayanto
 # license: MIT License
 ```
 

@@ -1,193 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://docs.genix.me/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/about/about/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/privacy-policy/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/about/license/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/about/about/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/about/credits/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/about/credits/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/installation/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/about/license/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/dashboard/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/categories.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/configuration/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/control.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/posts/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/date.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/category/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/db.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/pages/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/gxmain.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/users/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/image.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/user-guide/menus/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/install.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/categories.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/mail.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/control.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/menus.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/date.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/mod.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/db.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/options.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/gxmain.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/paging.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/image.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/pinger.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/install.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/posts.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/mail.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/rss.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/menus.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/session.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/mod.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/site.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/options.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/sitemap.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/paging.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/stats.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/pinger.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/system.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/posts.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/theme.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/rss.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/typo.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/session.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/upload.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/site.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/url.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/sitemap.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/api/user.class/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/stats.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/category/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/system.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/configuration/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/theme.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/dashboard/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/typo.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/installation/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/upload.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/menus/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/url.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/mod/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/api/user.class/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/pages/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://docs.genix.me/privacy-policy/</loc>
-     <lastmod>2020-09-06</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://docs.genixcms.my.id/user-guide/posts/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.genixcms.my.id/user-guide/users/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>

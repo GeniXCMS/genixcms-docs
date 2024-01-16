@@ -27,7 +27,7 @@ Even when You are not a programmer, you can build your own website using it. Ver
 
 ### Requirements ###
 ---
-* PHP >=**7.2.5**
+* PHP >=**8**
 * MySQL >=**4**
 
 
@@ -44,11 +44,11 @@ Showcase URL : [https://www.softaculous.com/demos/GeniXCMS](https://www.softacul
 
 ### Website ###
 ---
-Link : [https://github.com/semplon/GeniXCMS](https://github.com/semplon/GeniXCMS)
+Link : [https://github.com/GeniXCMS/GeniXCMS](https://github.com/GeniXCMS/GeniXCMS)
 
 
 
 ### Developer ###
 ---
-Developed by : Puguh Wijayanto - [https://genix.me](https://genix.me)
+Developed by : GeniXCMS - [https://genixcms.my.id/](https://genixcms.my.id/)
 

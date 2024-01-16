@@ -1,8 +1,8 @@
 site_name: GeniXCMS Docs
 site_url: https://docs.genixcms.my.id/
-repo_url: https://github.com/GeniXCMS/genixcms-docs
+repo_url: https://github.com/GeniXCMS/GeniXCMS
 site_description: GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS
-site_author: MetalGenix
+site_author: GeniXCMS
 # use_directory_urls: true
 # site_favicon: favicon.ico
 # theme_dir: genixcms
@@ -24,18 +24,18 @@ theme:
   # logo: ../img/genixcms-logo-sign-small.png
 
 # Copyright
-copyright: "Copyright &copy; 2020, build with <i class='fa fa-heart'></i> by MetalGenix"
+copyright: "Copyright &copy; 2024, build with <i class='fa fa-heart'></i> by GeniXCMS"
 
 # Options
 extra:
   search:
     languages: "en"
   social:
-    - type: globe
+    - icon: fontawesome/solid/globe
       link: https://genixcms.my.id/
-    - type: github-alt
-      link: https://github.com/semplon/GeniXCMS
-    - type: twitter
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/GeniXCMS/GeniXCMS
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/genixcms
       
 markdown_extensions:
@@ -93,6 +93,7 @@ nav:
   - Pages: 'user-guide/pages.md'
   - Users: 'user-guide/users.md'
   - Menus: 'user-guide/menus.md'
+  - Modules: 'user-guide/mod.md'
 - API:
   - Categories Class: 'api/categories.class.md'
   - Control Class: 'api/control.class.md'
