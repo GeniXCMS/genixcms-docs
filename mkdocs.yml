@@ -1,5 +1,5 @@
 site_name: GeniXCMS Docs
-site_url: https://docs.genixcms.my.id/
+site_url: https://docs.genixcms.web.id/
 repo_url: https://github.com/GeniXCMS/GeniXCMS
 site_description: GeniXCMS Documentations Website, Free and Opensource Bootstrap Based CMS
 site_author: GeniXCMS
@@ -24,7 +24,7 @@ theme:
   # logo: ../img/genixcms-logo-sign-small.png
 
 # Copyright
-copyright: "Copyright &copy; 2024, build with <i class='fa fa-heart'></i> by GeniXCMS"
+copyright: "Copyright &copy; 2025, build with <i class='fa fa-heart'></i> by GeniXCMS"
 
 # Options
 extra:
@@ -32,7 +32,7 @@ extra:
     languages: "en"
   social:
     - icon: fontawesome/solid/globe
-      link: https://genixcms.my.id/
+      link: https://genixcms.web.id/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/GeniXCMS/GeniXCMS
     - icon: fontawesome/brands/twitter

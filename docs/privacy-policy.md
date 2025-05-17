@@ -137,7 +137,7 @@ If there are any questions regarding this privacy policy, you may contact us usi
 
 ```text
 GeniXCMS
-- genixcms.my.id
+- genixcms.web.id
 - genixcms@gmail.com
 ```
 Last Edited on 2024-01-16

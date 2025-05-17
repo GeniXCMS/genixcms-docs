@@ -50,5 +50,5 @@ Link : [https://github.com/GeniXCMS/GeniXCMS](https://github.com/GeniXCMS/GeniXC
 
 ### Developer ###
 ---
-Developed by : GeniXCMS - [https://genixcms.my.id/](https://genixcms.my.id/)
+Developed by : GeniXCMS - [https://genixcms.web.id/](https://genixcms.web.id/)
 
